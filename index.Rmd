@@ -1,13 +1,13 @@
 ---
 title: "Félix R. Millán T."
-image: "frank.jpg"
+image: "perfil.jpg"
 links:
   - label: LinkedIn
     url: "https://linkedin.com/"
   - label: Twitter
     url: "https://twitter.com/"
-  - label: GitHub
-    url: "https://github.com/"
+  - label: Instagram
+    url: "https://instagram.com/"
   - label: Email
     url: "mailto:email@email.com"
 output:
@@ -15,27 +15,30 @@ output:
 site: distill::distill_website
 ---
  
-## Bio
+## Biografía profesional
 
-Frank Hermosillo studies neural networks and their applications at Google 
-Brain. His research focuses on differentiable network pruning approximation and 
-decentralized gradient inversion mechanics. He frequently collaborates with 
-researchers who study machine learning, computer vision, and cognitive science.
-His work has been featured in WIRED, The Atlantic, Newsweek, and The New York 
-Times Magazine.
+Empecé mi carrera profesional como becario del Consejo Nacional de Investigaciones Científicas y Tecnologicas (CONICIT) en la Universidad Central de Venezuela, donde tuve la oportunidad de desarrollar un proceso químico conocido como amoniación, para la inactivación de Aflatoxina B1 en granos de cereales. Luego ingresé como profesor en la Universidad Simón Bolívar, donde me desempeñé los primeros 6 años de carrera como docente e investigador en el área de ingeniería de alimentos, desempeñándome posteriormente 20 años como profesor de diseño estadístico de experimentos, calidad y tecnología de alimentos, centrando mi experiencia de investigación en la aplicación de métodos estadísticos -metodología de superficie de respuesta y diseños de mezcla- y de aprendizaje automático -redes neuronales en problemas de clasificación y regresión para datos rectangulares-, en el desarrollo y procesamiento de alimentos. Soy autor de 20 publicaciones científicas en *RACI* y he sido tutor de numerosos trabajos de especialización y maestria en ciencia de alimentos y calidad, así como de pasantías profesionales en la empresa privada. Así mismo, me he desempeñado en la industria a través de servicios de consultoría en lo relaticvo a la determinación de la vida útil de alimentos, procesos térmicos de esterilización comercial y control estadístico de la calidad. Actualmente soy profesor titular jubilado de la Universidad Simón Bolivar y ofrezco servicios de educación y consultoría en el área de tecnología de alimentos y estadística aplicada, dirigidos a personas naturales y jurídicas.
 
-## Education
 
-**Massachusetts Institute of Technology** | Cambridge, MA
 
-Ph.D. in Computer Science | September 2009 - May 2014
+## Educación
 
-**The University of California, Berkeley** | Berkeley, CA
+**Universidad Central de Venezuela** | Caracas, VE
 
-B.S. in Computer Science | September 2005 - May 2009
+M.Sc. en Ciencia y Tecnología de Alimentos | Abril de 1994 - Noviembre de 1997
 
-## Experience
+**Universidad Central de Venezuela** | Caracas, VE
 
-**Google Brain** | Principal Investigator | January 2018 - Present
+Lic. en Nutrición | Octubre de 1988 - Noviembre de 1993
 
-**Netflix** | Research Scientist | June 2014 - December 2017
+## Experiencia
+
+**Universidad Simón Bolívar** | Profesor Titular| Febrero 2012 - Abril 2022
+
+**Universidad Simón Bolívar** | Profesor Asociado | Enero 2007 - Febrero 2012
+
+**Universidad Simón Bolívar** | Profesor Agregado | Enero 2003 - Enero 2007
+
+**Universidad SDimón Bolívar** | Profesor Asistente | Junio 2001 - Enero 2003
+
+**Universidad Simón Bolívar** | Profesor contratado | enero 1998 - Junio 2001
