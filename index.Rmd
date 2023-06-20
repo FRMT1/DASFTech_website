@@ -1,6 +1,7 @@
 ---
 title: "Félix R. Millán T."
 image: "perfil.jpg"
+language: "es"
 links:
   - label: LinkedIn
     url: "https://linkedin.com/"
@@ -39,6 +40,6 @@ Lic. en Nutrición | Octubre de 1988 - Noviembre de 1993
 
 **Universidad Simón Bolívar** | Profesor Agregado | Enero 2003 - Enero 2007
 
-**Universidad SDimón Bolívar** | Profesor Asistente | Junio 2001 - Enero 2003
+**Universidad Simón Bolívar** | Profesor Asistente | Junio 2001 - Enero 2003
 
 **Universidad Simón Bolívar** | Profesor contratado | enero 1998 - Junio 2001
