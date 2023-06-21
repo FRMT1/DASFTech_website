@@ -4,7 +4,7 @@ image: "perfil.jpg"
 language: "es"
 links:
   - label: '<i class="fab fa-linkedin"></i> LinkedIn'
-    url: "https://www.linkedin.com/in/felix-r-millan-t-3013604a?li           pi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_conta           ct_details%3Bi0X1k%2FsfR7K%2FqEwR0DCnzA%3D%3D"
+    url: "https://www.linkedin.com/in/felix-r-millan-t-3013604a/"
   - label: '<i class="fab fa-twitter"></i> Twitter'
     url: "https://twitter.com/feramitru"
   - label: '<i class="fab fa-instagram"></i> Instagram'
