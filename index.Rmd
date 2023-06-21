@@ -3,13 +3,13 @@ title: "Félix R. Millán T."
 image: "perfil.jpg"
 language: "es"
 links:
-  - label: LinkedIn
+  - label: '<i class="fab fa-linkedin"></i> LinkedIn'
     url: "https://linkedin.com/"
-  - label: Twitter
+  - label: '<i class="fab fa-twitter"></i> Twitter'
     url: "https://twitter.com/"
-  - label: Instagram
+  - label: '<i class="fab fa-instagram"></i> instagram'
     url: "https://instagram.com/"
-  - label: Email
+  - label: '<i class="fas fa-envelope"></i> Email'
     url: "mailto:email@email.com"
 output:
   postcards::trestles
