@@ -4,13 +4,13 @@ image: "perfil.jpg"
 language: "es"
 links:
   - label: '<i class="fab fa-linkedin"></i> Linkedin'
-    url: "https://www.linkedin.com/in/felix-r-millan-t-3013604a/"
+    url: "https://www.linkedin.com/in/felix-r-millan-t-3013604a/            target='_blank'"
   - label: '<i class="fab fa-twitter"></i> Twitter'
-    url: "https://twitter.com/feramitru"
+    url: "https://twitter.com/feramitru target='_blank'"
   - label: '<i class="fab fa-instagram"></i> Instagram'
-    url: "https://instagram.com/feramitru"
+    url: "https://instagram.com/feramitru target='_blank'"
   - label: '<i class="fas fa-envelope"></i> Email'
-    url: "mailto:proffelixmillan@gmail.com"
+    url: "mailto:proffelixmillan@gmail.com target='_blank'"
 output:
   postcards::trestles
 site: distill::distill_website
