@@ -10,7 +10,7 @@ links:
   - label: '<i class="fab fa-instagram"></i> Instagram'
     url: "https://instagram.com/feramitru"
   - label: '<i class="fas fa-envelope"></i> Email'
-    url: "mailto:millan2001@gmail.com"
+    url: "mailto:proffelixmillan@gmail.com"
 output:
   postcards::trestles
 site: distill::distill_website
