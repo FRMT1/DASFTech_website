@@ -4,7 +4,7 @@ image: "perfil.jpg"
 language: "es"
 links:
   - label: '<i class="fab fa-linkedin"></i> LinkedIn'
-    url: "https://linkedin.com/félix-rafael-millan-trujillo"
+    url: "https://linkedin.com/in/félix-rafael-millan-trujillo/"
   - label: '<i class="fab fa-twitter"></i> Twitter'
     url: "https://twitter.com/feramitru"
   - label: '<i class="fab fa-instagram"></i> instagram'
