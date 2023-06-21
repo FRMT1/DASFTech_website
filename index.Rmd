@@ -3,14 +3,14 @@ title: "Félix R. Millán T."
 image: "perfil.jpg"
 language: "es"
 links:
-  - label: '<i class="fab fa-linkedin"></i> Linkedin'
-    url: "https://www.linkedin.com"
+  - label: '<i class="fab fa-linkedin"></i> LinkedIn'
+    url: ""https://www.linkedin.com/in/shannon-m-pileggi/"
   - label: '<i class="fab fa-twitter"></i> Twitter'
     url: "https://twitter.com/feramitru"
   - label: '<i class="fab fa-instagram"></i> Instagram'
     url: "https://instagram.com/feramitru"
   - label: '<i class="fas fa-envelope"></i> Email'
-    url: "mailto:millan2001@email.com"
+    url: "mailto:millan2001@gmail.com"
 output:
   postcards::trestles
 site: distill::distill_website
