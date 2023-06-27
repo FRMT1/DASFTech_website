@@ -1,6 +1,6 @@
 name: "."
 language: "es"
-title: "Bienvenidos a mi website"
+title: "Ciencia de datos y tecnología de alimentos"
 description: |
   mi website
 output_dir: "docs"
