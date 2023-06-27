@@ -60,7 +60,7 @@ d-appendix {
 /* These properties only apply to Distill sites and blogs  */
 
 .distill-site-header {
-  --title-size:       15px;
+  --title-size:       18px;
   --text-color:       rgba(255, 255, 255, 0.8);
   --text-size:        18px;
   --hover-color:      white;
@@ -83,19 +83,19 @@ h1 {
 }
 
 h2 {
-  color: #003F88;
+  color: #E85D04;
   font-size: 32px;
 }
 
 .btn-outline-dark {
     background-color: transparent; 
-    color: rgba(0,63,136);
+    color: rgba(232,93,4);
     border: 1px solid;
-    border-color: rgba(0,63,136);
+    border-color: rgba(232,93,4);
 }
 
 .btn-outline-dark:hover {
-    background-color: rgba(0,63,136);
-    border-color: rgba(0,63,136);
+    background-color: rgba(232,93,4);
+    border-color: rgba(232,93,4);
     color: white;
 }
