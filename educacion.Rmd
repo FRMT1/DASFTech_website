@@ -12,6 +12,7 @@ date: "`r Sys.Date()`"
 output: 
   distill::distill_article:
     toc: true
+    toc_title: "Contenido"
     toc_depth: 2
     toc_float: true
 ---
