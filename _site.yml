@@ -8,11 +8,7 @@ theme: rgirls-theme.css
 navbar:
   right:
     - text: "Servicios"
-      menu:
-        - text: "Educación"
-          href: educacion.html
-        - text: "Consultoría"
-          href: consultoria.html
+      href: servicios.html
     - text: "Tutoriales"
       menu:
         - text: "Primeros pasos en R"
@@ -20,13 +16,7 @@ navbar:
         - text: "Rmarkdown"
           href: rmarkdown.html
     - text: "Blog"
-      menu:
-        - text: "Ciencia de alimentos"
-          href: alimentos.html
-        - text: "Aprendizaje automático"
-          href: aprendizaje.html
-        - text: "Nutrición"
-          href: nutricion.html
+      href: blog.html
     - text: "cv"
       href: cv.pdf
 output: distill::distill_article
