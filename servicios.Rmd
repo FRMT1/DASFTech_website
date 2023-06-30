@@ -11,7 +11,7 @@ language: "es"
 date: "`r Sys.Date()`"
 output: 
   distill::distill_article:
-    toc: TRUE
+    toc: true
 ---
 
 
