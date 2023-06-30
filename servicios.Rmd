@@ -1,5 +1,6 @@
 ---
 title: "Servicios educativos y consultoría"
+language: "es"
 #description: |
 #  A new article created using the Distill format.
 #author:
