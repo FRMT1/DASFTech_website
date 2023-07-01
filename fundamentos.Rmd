@@ -1,4 +1,4 @@
 ---
-title: "fundamentos"
+title: "fundamentos de R"
 listing: lecciones_R
 ---
