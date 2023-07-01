@@ -12,14 +12,12 @@ navbar:
     - text: "Tutoriales"
       menu:
         - text: "Fundamentos de R"
-          href: primeros_pasos.html
-        - text: "Rmarkdown"
-          href: rmarkdown.html
+          href: fundamentos.html
     - text: "Blog"
       menu:
         - text: "Ciencia de alimentos"
           href: alimentos.html
-        - text: "Bioquímica nutricional"
+        - text: "Nutrición"
           href: nutricion.html
     - text: "cv"
       href: cv.pdf
