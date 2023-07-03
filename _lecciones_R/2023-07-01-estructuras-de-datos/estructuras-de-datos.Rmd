@@ -1,14 +1,12 @@
 ---
 title: "Estructuras de datos"
-description: |
-  Principales estructuras de datos en R.
+description: Este apartado trata sobre las principales estructuras de datos en R. Se verá como conformar vectores, factores, matrices y tablas de datos. Es un tutorial muy útil para abordar aspectos más avanzados del programa. 
 author:
   - name: Félix Millán
 date: 2023-07-01
 output:
   distill::distill_article:
     self_contained: false
-preview: blog1.png
 ---
 
 
@@ -133,4 +131,15 @@ b**2
 identical(b^2,b**2)
 ```
 
-Observen el la última línea que la potencia de un número puede escribirse como **b^2** o como **b**2**
+Observen el la última línea que la potencia de un número puede escribirse como **b^2** o como b**2
+
+La definición de vectores permite la construcción de gráficos básicos con la función **plot**, la cual tiene varios argumentos. En el siguiente ejemplo solo utilizaremos los argumentos; *main*, *xlab*, *ylab*, *type* y *col*.
+
+```{r fig.align='center',fig.height= 4}
+x <- seq(-pi,pi,0.1)
+y <- sin(x)
+plot(y~x, xlab = "X", ylab = "Seno de X", 
+     main= "Gráfico a partir de vectores",
+     type = "o", col = "darkblue")
+```
+
