@@ -18,9 +18,9 @@ output:
 La formación permanente es indispensable para el desarrollo profesional personal y para el crecimiento de cualquier empresa. Es por ello que me he propuesto ofrecer a personas naturales y jurídicas, mi experiencia profesional para la capacitación en línea y, eventualmente en la compañía, sobre diversos tópicos de la ciencia y tecnología de alimentos, la estadística aplicada a la industria y el aprendizaje automático. Concomitantemente, también se ofrecen servicios de consultoría en el desarrollo y procesamiento de alimentos. A continuación se presentan los principales servicios ofrecidos:
 
 
-# Educación 
+# 1. Educación 
 
-## Desarrollo de páginas web personales con R
+## 1.1 Desarrollo de páginas web personales con R
 
 Este curso tiene como objetivo la capacitación para el desarrollo de páginas web personales, mediante el lenguaje de programación [R](https://www.r-project.org/) y el paquete [distill](https://cran.r-project.org/web/packages/distill/index.html). El participante, aprenderá a integrar el ambiente de desarrollo integrado (IDE por sus siglas en inglés) [Rstudio](https://posit.co/download/rstudio-desktop/), con tecnologías como [Git](https://git-scm.com/) para el control de versiones y la creación del repositorio y hospedaje de su página web en [Github](https://github.com/) y/o [Netlify](https://www.netlify.com/). El curso será dictado en su totalidad, a través de la plataforma *Thinkific* y el material estará disponible hasta la culminación del curso. Está dirigido a todas aquellas personas que deseen crear una página web personal o profesional y que no posean conocimientos avanzados de programación. Sí deseas mayor información, por favor escríbeme al correo electrónico.
 
