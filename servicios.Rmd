@@ -20,7 +20,7 @@ La formación permanente es indispensable para el desarrollo profesional persona
 
 # 1. Educación 
 
-## 1.1 Desarrollo de páginas web personales con R
+## **1.1** Desarrollo de páginas web personales con R
 
 Este curso tiene como objetivo la capacitación para el desarrollo de páginas web personales, mediante el lenguaje de programación [R](https://www.r-project.org/) y el paquete [distill](https://cran.r-project.org/web/packages/distill/index.html). El participante, aprenderá a integrar el ambiente de desarrollo integrado (IDE por sus siglas en inglés) [Rstudio](https://posit.co/download/rstudio-desktop/), con tecnologías como [Git](https://git-scm.com/) para el control de versiones y la creación del repositorio y hospedaje de su página web en [Github](https://github.com/) y/o [Netlify](https://www.netlify.com/). El curso será dictado en su totalidad, a través de la plataforma *Thinkific* y el material estará disponible hasta la culminación del curso. Está dirigido a todas aquellas personas que deseen crear una página web personal o profesional y que no posean conocimientos avanzados de programación. Sí deseas mayor información, por favor escríbeme al correo electrónico.
 
@@ -28,7 +28,7 @@ Este curso tiene como objetivo la capacitación para el desarrollo de páginas w
 * **Inicio del curso**: se anunciará posteriormente.
 * **Inversión y métodos de pago**: se anunciará posteriormente
 
-## Estadística básica para la empresa
+## **1.2** Estadística básica para la empresa
 
 Este curso está dirigido a profesionales, estudiantes o empresas, que estén interesadas en una primera aproximación a la utilización e interpretación de métodos estadísticos en el entorno industrial. En tal sentido, el participante aprenderá a interpretar los conceptos de población y muestra en los procesos de producción y a partir de allí, podrá plantear hipótesis y estimar parámetros de proceso para la toma de decisiones, estableciendo el balance entre el riesgo del fabricante y el riesgo del consumidor. Sí deseas mayor información, por favor escríbeme al correo electrónico.
 
@@ -37,7 +37,7 @@ Este curso está dirigido a profesionales, estudiantes o empresas, que estén in
 * **Inversión y métodos de pago**: se anunciará posteriormente
 * **Plataforma de aprendizaje**: Thinkific
 
-## Diseño estadístico de experimentos (*DoE*) para la investigación y desarrollo (I&D)
+## **1.3** Diseño estadístico de experimentos (*DoE*) para la investigación y desarrollo (I&D)
 
 Este curso tiene como finalidad, capacitar a los participantes en las metodologías y procedimientos fundamentales para el diseño y análisis de experimentos en la industria, y su aplicación en el desarrollo de productos y optimización de procesos; que conduzca a la toma de decisiones, a partir de una base científica. Se abordarán temas como el diseño de bloques completos (*RCBD*), diseños factoriales, técnica de confusión, factoriales fraccionarios y metodología de superficie de respuesta. Una vez comprendidos los fundamentos, el participante aprenderá a escribir el código de programación en R correspondiente para cada caso. Este curso está dirigido a profesionales en el área de I&D, profesionales en el área de producción y calidad, estudiantes universitarios o empresas que deseen una capacitación en el área. Sí deseas mayor información, por favor escríbeme al correo electrónico.
 
@@ -47,7 +47,7 @@ Este curso tiene como finalidad, capacitar a los participantes en las metodolog�
 * **Plataforma de aprendizaje**: Thinkific
 * *Se recomienda tomar previamente el curso de estadística básica para la empresa*.
 
-## Cálculo de vida útil de alimentos
+## **1.4** Cálculo de vida útil de alimentos
 
 Se establecerá el concepto e importancia de la estabilidad y vida útil de los alimentos y se abordarán los principales mecanismos físicos, bioquímicos y microbiológicos que la determinan. Una vez comprendidos estos fundamentos, el participante aprenderá los criterios y el diseño de pruebas aceleradas, para identificar y modelar las principales cinéticas de deterioro en un alimento, y su relación con las temperaturas de almacenamiento, para predecir la vida útil de un producto. Los cálculos se desarrollarán con el lenguaje de programación R.. Este curso está dirigido a todas aquellas personas interesadas en conocer cómo se establece la vida útil de un alimento, profesionales, estudiantes universitarios y empresas interesadas en el tema. Sí deseas mayor información, por favor escríbeme al correo electrónico.
 
@@ -56,7 +56,7 @@ Se establecerá el concepto e importancia de la estabilidad y vida útil de los 
 * **Inversión y métodos de pago**: se anunciará posteriormente
 * **Plataforma de aprendizaje**: Thinkific
 
-## Cálculo de procesos de esterilidad comercial
+## **1.5** Cálculo de procesos de esterilidad comercial
 
 El objetivo de este curso es establecer las bases microbiológicas y de termorresistencia microbiana y la comprensión de los mecanismos de transferencia de calor, para la evaluación y diseño de procesos de esterilización comercial de alimentos. El particpante aprenderá el significado científico-técnico del concepto de termorresistencia y su importancia, y establecerá los criterios para el procesamiento térmico de un alimento enlatado, lo cual, en conjunto con la comprensión de los mecanismos de penetración de calor, le permitirá evaluar y diseñar procesos térmicos de esterilización comercial en la industria de alimentos. Los calculos se desarrollarán con el lenguaje de programación R. Este curso está dirigido a profesionales, estudiantes universitarios o empresas que requieran conocer y establecer las bases para el procesamiento térmico de alimentos. Sí deseas mayor información, por favor escríbeme al correo electrónico.
 
@@ -65,7 +65,7 @@ El objetivo de este curso es establecer las bases microbiológicas y de termorre
 * **Inversión y métodos de pago**: se anunciará posteriormente
 * **Plataforma de aprendizaje**: Thinkific
 
-## Control estadístico de la calidad
+## **1.6** Control estadístico de la calidad
 
 Curso que tiene como objetivo, estudiar y comprender la etiología de la variación asociada a los procesos industriales y su impacto en la calidad de los productos y la satisfacción del consumidor, así como el fundamento y aplicación de las principales técnicas del control moderno de la calidad: gráficos de control, histograma y gráfico de probabilidad normal, análisis de capacidad de proceso, diagrama de Pareto, hojas de registro y planes de muestreo, las cuales se desarrollarán mediante el lenguaje de programación R. Está dirigido a profesionales que trabajen en las áreas de calidad y producción, profesionales interesados en el tema, estudiantes universitarios y empresas procesadoras de bienes y/o servicios. Sí deseas mayor información, por favor escríbeme al correo electrónico.
 
@@ -75,7 +75,7 @@ Curso que tiene como objetivo, estudiar y comprender la etiología de la variaci
 * **Plataforma de aprendizaje**: Thinkific
 * *Se recomienda tomar previamente el curso de estadística básica para la empresa*.
 
-## Aprendizaje automático con redes neuronales
+## **1.7** Aprendizaje automático con redes neuronales
 
 Este curso tiene como objetivo la comprensión de los fundamentos que rigen el aprendizaje automático mediante redes neuronales y la aplicación de algoritmos de aprendizaje supervisado y no supervisado en problemas de clasificación, regresión y agrupación en datos rectangulares (tablas). El participante adquirirá una comprensión práctica de los principios y aplicación de las redes neuronales artificiales en el modelado predictivo, mediante su aplicación en el lenguaje de programación R y la aplicación de las bibliotecas *Neuralnet*, *Keras* y *Kohonen*. Sí deseas mayor información, por favor escríbeme al correo electrónico.
 
@@ -84,7 +84,7 @@ Este curso tiene como objetivo la comprensión de los fundamentos que rigen el a
 * **Inversión y métodos de pago**: se anunciará posteriormente
 * **Plataforma de aprendizaje**: Thinkific
 
-# Consultoría
+# 2. Consultoría
 
 Se ofrecen servicios de asesoramiento en desarrollo y procesamiento de alimentos e implementación de métodos estadísticos para la calidad, desde la investigación hasta el control de procesos, a pequeñas, medianas y grandes empresas. Cualquier información adicional, no dudes en hacer contacto por correo electrónico.
 
