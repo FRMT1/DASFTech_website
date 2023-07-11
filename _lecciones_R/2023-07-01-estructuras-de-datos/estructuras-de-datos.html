@@ -1694,7 +1694,195 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 </div>
 <p><img src="estructuras-de-datos_files/figure-html5/unnamed-chunk-11-1.png" width="624" style="display: block; margin: auto;" /></p>
 </div>
-<div class="sourceCode" id="cb24"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
+<h1 id="factores">Factores</h1>
+<p>Los factores son estructuras que se utilizan para realizar una clasificación discreta de otros vectores de la misma longitud. Supongamos que se le pregunta a 10 personas que asisten a un evento, su país de origen. Esta información pudiera guardarse como un vector de la siguiente manera:</p>
+<div class="layout-chunk" data-layout="l-body">
+<div class="sourceCode">
+<pre class="sourceCode r"><code class="sourceCode r"><span><span class='va'>pais.origen</span> <span class='op'>&lt;-</span> <span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span><span class='op'>(</span><span class='st'>"Argentina"</span>,<span class='st'>"Perú"</span>,<span class='st'>"Venezuela"</span>,<span class='st'>"Japón"</span>,<span class='st'>"Perú"</span>,</span>
+<span>                 <span class='st'>"Argentina"</span>,<span class='st'>"Japón"</span>,<span class='st'>"Venezuela"</span>,<span class='st'>"Benín"</span>,</span>
+<span>                 <span class='st'>"México"</span><span class='op'>)</span></span>
+<span><span class='va'>pais.origen</span></span></code></pre>
+</div>
+<pre><code> [1] &quot;Argentina&quot; &quot;Perú&quot;      &quot;Venezuela&quot; &quot;Japón&quot;     &quot;Perú&quot;     
+ [6] &quot;Argentina&quot; &quot;Japón&quot;     &quot;Venezuela&quot; &quot;Benín&quot;     &quot;México&quot;   </code></pre>
+</div>
+<p>El mismo vector, guardado como factor:</p>
+<div class="layout-chunk" data-layout="l-body">
+<div class="sourceCode">
+<pre class="sourceCode r"><code class="sourceCode r"><span><span class='va'>pais.origen</span> <span class='op'>&lt;-</span> <span class='fu'><a href='https://rdrr.io/r/base/factor.html'>as.factor</a></span><span class='op'>(</span><span class='va'>pais.origen</span><span class='op'>)</span></span>
+<span><span class='va'>pais.origen</span></span></code></pre>
+</div>
+<pre><code> [1] Argentina Perú      Venezuela Japón     Perú      Argentina
+ [7] Japón     Venezuela Benín     México   
+Levels: Argentina Benín Japón México Perú Venezuela</code></pre>
+<div class="sourceCode">
+<pre class="sourceCode r"><code class="sourceCode r"><span><span class='co'># Sus niveles o categorías</span></span>
+<span><span class='fu'><a href='https://rdrr.io/r/base/levels.html'>levels</a></span><span class='op'>(</span><span class='va'>pais.origen</span><span class='op'>)</span></span></code></pre>
+</div>
+<pre><code>[1] &quot;Argentina&quot; &quot;Benín&quot;     &quot;Japón&quot;     &quot;México&quot;    &quot;Perú&quot;     
+[6] &quot;Venezuela&quot;</code></pre>
+<div class="sourceCode">
+<pre class="sourceCode r"><code class="sourceCode r"><span><span class='co'># El resumen de cada categoría</span></span>
+<span><span class='fu'><a href='https://rdrr.io/r/base/summary.html'>summary</a></span><span class='op'>(</span><span class='va'>pais.origen</span><span class='op'>)</span></span></code></pre>
+</div>
+<pre><code>Argentina     Benín     Japón    México      Perú Venezuela 
+        2         1         2         1         2         2 </code></pre>
+</div>
+<p>Este tipo de estructura es muy útil cuando se trabaja con diseño de experimentos, por ejemplo. El factor también puede estar ordenado, en cuyo caso se utiliza la función <strong>ordered</strong>. Un ejemplo:</p>
+<div class="layout-chunk" data-layout="l-body">
+<div class="sourceCode">
+<pre class="sourceCode r"><code class="sourceCode r"><span><span class='va'>tratamientos</span> <span class='op'>&lt;-</span> <span class='fu'><a href='https://rdrr.io/r/base/factor.html'>factor</a></span><span class='op'>(</span><span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span><span class='op'>(</span><span class='fl'>1</span>,<span class='fl'>3</span>,<span class='fl'>4</span>,<span class='fl'>2</span>,<span class='fl'>1</span>,<span class='fl'>4</span>,<span class='fl'>2</span>,<span class='fl'>2</span>,<span class='fl'>1</span>,<span class='fl'>1</span>,<span class='fl'>1</span>,<span class='fl'>3</span>,<span class='fl'>3</span>,<span class='fl'>4</span><span class='op'>)</span><span class='op'>)</span></span>
+<span><span class='va'>tratamientos</span> <span class='op'>&lt;-</span> <span class='fu'><a href='https://rdrr.io/r/base/factor.html'>ordered</a></span><span class='op'>(</span><span class='va'>tratamientos</span><span class='op'>)</span></span>
+<span><span class='va'>tratamientos</span></span></code></pre>
+</div>
+<pre><code> [1] 1 3 4 2 1 4 2 2 1 1 1 3 3 4
+Levels: 1 &lt; 2 &lt; 3 &lt; 4</code></pre>
+</div>
+<h1 id="matrices">Matrices</h1>
+<p>Para la construcción de matrices en R, se utilizan las funciones <strong>ncol</strong>, <strong>nrow</strong>, <strong>matrix</strong> y <strong>byrow</strong>. Lo primero que se debe hacer es crear el vector de datos que conformarán la matriz. Supongamos que se desea construir una matriz <em>3x3</em> con los siguientes datos: <span class="math inline">\(1,2,3,4,5,6,7,8,9\)</span></p>
+<div class="layout-chunk" data-layout="l-body">
+<div class="sourceCode">
+<pre class="sourceCode r"><code class="sourceCode r"><span><span class='va'>data</span> <span class='op'>&lt;-</span> <span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span><span class='op'>(</span><span class='fl'>1</span>,<span class='fl'>2</span>,<span class='fl'>3</span>,<span class='fl'>4</span>,<span class='fl'>5</span>,<span class='fl'>6</span>,<span class='fl'>7</span>,<span class='fl'>8</span>,<span class='fl'>9</span><span class='op'>)</span></span>
+<span><span class='co'># Matriz 1</span></span>
+<span><span class='va'>M1</span> <span class='op'>&lt;-</span> <span class='fu'><a href='https://rdrr.io/r/base/matrix.html'>matrix</a></span><span class='op'>(</span><span class='va'>data</span>, ncol <span class='op'>=</span> <span class='fl'>3</span>, byrow <span class='op'>=</span> <span class='cn'>TRUE</span><span class='op'>)</span></span>
+<span><span class='va'>M1</span></span></code></pre>
+</div>
+<pre><code>     [,1] [,2] [,3]
+[1,]    1    2    3
+[2,]    4    5    6
+[3,]    7    8    9</code></pre>
+<div class="sourceCode">
+<pre class="sourceCode r"><code class="sourceCode r"><span><span class='co'># Matriz 2</span></span>
+<span><span class='va'>M2</span> <span class='op'>&lt;-</span> <span class='fu'><a href='https://rdrr.io/r/base/matrix.html'>matrix</a></span><span class='op'>(</span><span class='va'>data</span>,ncol <span class='op'>=</span> <span class='fl'>3</span>,byrow <span class='op'>=</span> <span class='cn'>FALSE</span><span class='op'>)</span></span>
+<span><span class='va'>M2</span></span></code></pre>
+</div>
+<pre><code>     [,1] [,2] [,3]
+[1,]    1    4    7
+[2,]    2    5    8
+[3,]    3    6    9</code></pre>
+<div class="sourceCode">
+<pre class="sourceCode r"><code class="sourceCode r"><span><span class='co'># Matriz 3</span></span>
+<span><span class='va'>data</span> <span class='op'>&lt;-</span> <span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span><span class='op'>(</span><span class='fl'>1</span>,<span class='fl'>2</span>,<span class='fl'>3</span>,<span class='fl'>4</span>,<span class='fl'>5</span>,<span class='fl'>6</span><span class='op'>)</span></span>
+<span><span class='va'>M3</span> <span class='op'>&lt;-</span> <span class='fu'><a href='https://rdrr.io/r/base/matrix.html'>matrix</a></span><span class='op'>(</span><span class='va'>data</span>,nrow <span class='op'>=</span> <span class='fl'>3</span>,byrow <span class='op'>=</span> <span class='cn'>TRUE</span><span class='op'>)</span></span>
+<span><span class='va'>M3</span></span></code></pre>
+</div>
+<pre><code>     [,1] [,2]
+[1,]    1    2
+[2,]    3    4
+[3,]    5    6</code></pre>
+</div>
+<p>A partir de las matrices que se han construido, se puede calcular la matriz traspuesta y la matriz inversa, con las funciones <strong>t</strong> y <strong>solve</strong> respectivamente, de gran utilidad en el cálculo de predictores <span class="math inline">\(\beta_i\)</span> en modelos matemáticos:</p>
+<p><span class="math display">\[
+\beta_i=(X&#39;X)^{-1}X&#39;Y
+\]</span></p>
+<p>Un ejemplo de matriz traspuesta:</p>
+<div class="layout-chunk" data-layout="l-body">
+<div class="sourceCode">
+<pre class="sourceCode r"><code class="sourceCode r"><span><span class='co'># Matriz traspuesta de M1</span></span>
+<span><span class='va'>traspuesta.M1</span> <span class='op'>&lt;-</span> <span class='fu'><a href='https://rdrr.io/r/base/t.html'>t</a></span><span class='op'>(</span><span class='va'>M1</span><span class='op'>)</span></span>
+<span><span class='va'>traspuesta.M1</span></span></code></pre>
+</div>
+<pre><code>     [,1] [,2] [,3]
+[1,]    1    4    7
+[2,]    2    5    8
+[3,]    3    6    9</code></pre>
+</div>
+<p>Un ejemplo de matriz inversa:</p>
+<div class="layout-chunk" data-layout="l-body">
+<div class="sourceCode">
+<pre class="sourceCode r"><code class="sourceCode r"><span><span class='va'>data</span> <span class='op'>&lt;-</span> <span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span><span class='op'>(</span><span class='fl'>6</span>,<span class='fl'>4</span>,<span class='fl'>3</span>,<span class='fl'>5</span>,<span class='fl'>1</span>,<span class='fl'>3</span>,<span class='fl'>5</span>,<span class='fl'>7</span>,<span class='fl'>8</span>,<span class='fl'>2</span>,<span class='fl'>3</span>,<span class='fl'>5</span>,<span class='fl'>4</span>,<span class='fl'>6</span>,<span class='fl'>2</span>,<span class='fl'>7</span><span class='op'>)</span></span>
+<span><span class='va'>matriz</span> <span class='op'>&lt;-</span> <span class='fu'><a href='https://rdrr.io/r/base/matrix.html'>matrix</a></span><span class='op'>(</span><span class='va'>data</span>,nrow <span class='op'>=</span> <span class='fl'>4</span>,byrow <span class='op'>=</span> <span class='cn'>TRUE</span><span class='op'>)</span></span>
+<span><span class='va'>matriz</span></span></code></pre>
+</div>
+<pre><code>     [,1] [,2] [,3] [,4]
+[1,]    6    4    3    5
+[2,]    1    3    5    7
+[3,]    8    2    3    5
+[4,]    4    6    2    7</code></pre>
+<div class="sourceCode">
+<pre class="sourceCode r"><code class="sourceCode r"><span> <span class='co'># Matriz inversa</span></span>
+<span><span class='va'>matriz.inversa</span> <span class='op'>&lt;-</span> <span class='fu'><a href='https://rdrr.io/r/base/solve.html'>solve</a></span><span class='op'>(</span><span class='va'>matriz</span><span class='op'>)</span></span>
+<span><span class='va'>matriz.inversa</span></span></code></pre>
+</div>
+<pre><code>            [,1]        [,2]       [,3]        [,4]
+[1,]  0.05952381 -0.08730159  0.1071429 -0.03174603
+[2,]  0.55952381 -0.08730159 -0.3928571 -0.03174603
+[3,]  0.61904762  0.15873016 -0.2857143 -0.39682540
+[4,] -0.69047619  0.07936508  0.3571429  0.30158730</code></pre>
+</div>
+<p>A partir de una matriz, se pueden desarrollar las operaciones aritméticas fundamentales. Caso especial es la multiplicación, ya que si se desea multiplicar una matriz <strong>A</strong> por un escalar, se escribe <span class="math inline">\(escalar*A\)</span>, en tanto que si se desea realizar una multiplicación matricial, la notación utilizada es %*%:</p>
+<div class="layout-chunk" data-layout="l-body">
+<div class="sourceCode">
+<pre class="sourceCode r"><code class="sourceCode r"><span><span class='va'>A</span> <span class='op'>&lt;-</span> <span class='fu'><a href='https://rdrr.io/r/base/matrix.html'>matrix</a></span><span class='op'>(</span>data <span class='op'>=</span> <span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span><span class='op'>(</span><span class='fl'>1</span>,<span class='fl'>2</span>,<span class='fl'>3</span>,<span class='fl'>4</span><span class='op'>)</span>, nrow <span class='op'>=</span> <span class='fl'>2</span>, byrow <span class='op'>=</span> <span class='cn'>TRUE</span><span class='op'>)</span></span>
+<span><span class='va'>A</span></span></code></pre>
+</div>
+<pre><code>     [,1] [,2]
+[1,]    1    2
+[2,]    3    4</code></pre>
+<div class="sourceCode">
+<pre class="sourceCode r"><code class="sourceCode r"><span><span class='va'>B</span> <span class='op'>&lt;-</span> <span class='fu'><a href='https://rdrr.io/r/base/matrix.html'>matrix</a></span><span class='op'>(</span>data <span class='op'>=</span> <span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span><span class='op'>(</span><span class='fl'>1</span>,<span class='fl'>2</span>,<span class='fl'>3</span>,<span class='fl'>4</span><span class='op'>)</span>, nrow <span class='op'>=</span> <span class='fl'>2</span>, byrow <span class='op'>=</span> <span class='cn'>FALSE</span><span class='op'>)</span></span>
+<span><span class='va'>B</span></span></code></pre>
+</div>
+<pre><code>     [,1] [,2]
+[1,]    1    3
+[2,]    2    4</code></pre>
+<div class="sourceCode">
+<pre class="sourceCode r"><code class="sourceCode r"><span><span class='co'># Multiplicación matricial</span></span>
+<span></span>
+<span><span class='va'>C</span> <span class='op'>&lt;-</span> <span class='va'>A</span><span class='op'><a href='https://rdrr.io/r/base/matmult.html'>%*%</a></span><span class='va'>B</span></span>
+<span><span class='va'>C</span></span></code></pre>
+</div>
+<pre><code>     [,1] [,2]
+[1,]    5   11
+[2,]   11   25</code></pre>
+</div>
+<h1 id="tablas-de-datos-data-frames">Tablas de datos (<em>data frames</em>)</h1>
+<p>Los <em>dataframes</em> son una generalización del concepto de matriz. La regla de oro de los <em>data frames</em> es que las variables están dispuestas en columnas y las observaciones en filas. A su vez, las columnas pueden ser distintas estructuras de datos: vectores (numéricos o de caracteres) y factores, pero todos los datos contenidos en una misma columna, deben ser del mismo tipo. veamos con un ejemplo:</p>
+<div class="layout-chunk" data-layout="l-body">
+<div class="sourceCode">
+<pre class="sourceCode r"><code class="sourceCode r"><span><span class='va'>estudiantes</span> <span class='op'>&lt;-</span> <span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span><span class='op'>(</span><span class='st'>"María"</span>,<span class='st'>"Juan"</span>,<span class='st'>"Carlos"</span>,<span class='st'>"Rafael"</span>,<span class='st'>"Emilia"</span>,</span>
+<span>                 <span class='st'>"Ana"</span>,<span class='st'>"Francisco"</span>,<span class='st'>"Vanessa"</span><span class='op'>)</span></span>
+<span><span class='va'>sexo</span> <span class='op'>&lt;-</span> <span class='fu'><a href='https://rdrr.io/r/base/factor.html'>factor</a></span><span class='op'>(</span><span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span><span class='op'>(</span><span class='st'>"F"</span>,<span class='st'>"M"</span>,<span class='st'>"M"</span>,<span class='st'>"M"</span>,<span class='st'>"F"</span>,<span class='st'>"F"</span>,<span class='st'>"M"</span>,<span class='st'>"F"</span><span class='op'>)</span><span class='op'>)</span></span>
+<span><span class='va'>talla</span> <span class='op'>&lt;-</span> <span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span><span class='op'>(</span><span class='fl'>1.55</span>,<span class='fl'>1.60</span>,<span class='fl'>1.70</span>,<span class='fl'>1.65</span>,<span class='fl'>1.53</span>,<span class='fl'>1.58</span>,<span class='fl'>1.72</span>,<span class='fl'>1.64</span><span class='op'>)</span></span>
+<span><span class='va'>datos</span> <span class='op'>&lt;-</span> <span class='fu'><a href='https://rdrr.io/r/base/data.frame.html'>data.frame</a></span><span class='op'>(</span><span class='va'>estudiantes</span>, <span class='va'>sexo</span>,<span class='va'>talla</span><span class='op'>)</span></span>
+<span><span class='va'>datos</span></span></code></pre>
+</div>
+<pre><code>  estudiantes sexo talla
+1       María    F  1.55
+2        Juan    M  1.60
+3      Carlos    M  1.70
+4      Rafael    M  1.65
+5      Emilia    F  1.53
+6         Ana    F  1.58
+7   Francisco    M  1.72
+8     Vanessa    F  1.64</code></pre>
+</div>
+<p>Si por ejemplo se desea conocer la talla promedio y la desviación estándar de todos los estudiantes, se podría utilizar las funciones <strong>mean</strong> y <strong>sd</strong>:</p>
+<div class="layout-chunk" data-layout="l-body">
+<div class="sourceCode">
+<pre class="sourceCode r"><code class="sourceCode r"><span><span class='co'># Promedio de la talla</span></span>
+<span><span class='fu'><a href='https://rdrr.io/r/base/mean.html'>mean</a></span><span class='op'>(</span><span class='va'>datos</span><span class='op'>[</span>,<span class='fl'>3</span><span class='op'>]</span><span class='op'>)</span></span></code></pre>
+</div>
+<pre><code>[1] 1.62125</code></pre>
+<div class="sourceCode">
+<pre class="sourceCode r"><code class="sourceCode r"><span><span class='co'># Desviación estándar de la talla</span></span>
+<span><span class='fu'><a href='https://rdrr.io/r/stats/sd.html'>sd</a></span><span class='op'>(</span><span class='va'>datos</span><span class='op'>[</span>,<span class='fl'>3</span><span class='op'>]</span><span class='op'>)</span></span></code></pre>
+</div>
+<pre><code>[1] 0.06833479</code></pre>
+</div>
+<p>La notación <strong>datos[,3]</strong> significa que del <em>data frame</em> datos, se está considerando para el cálculo todas las filas de la columna 3 exclusivamente.</p>
+<p>Sin embargo, casi siempre interesa conocer la información contenida en sub.grupos que integran el <em>data frame</em>, como por ejemplo la talla promedio de los hombres y de las mujeres del grupo. Para ello, es muy útil el uso de la función <strong>tapply</strong>:</p>
+<div class="layout-chunk" data-layout="l-body">
+<div class="sourceCode">
+<pre class="sourceCode r"><code class="sourceCode r"><span><span class='co'># Uso de tapply</span></span>
+<span></span>
+<span><span class='fu'><a href='https://rdrr.io/r/base/tapply.html'>tapply</a></span><span class='op'>(</span><span class='va'>datos</span><span class='op'>$</span><span class='va'>talla</span>,<span class='va'>datos</span><span class='op'>$</span><span class='va'>sexo</span>,<span class='va'>mean</span><span class='op'>)</span></span></code></pre>
+</div>
+<pre><code>     F      M 
+1.5750 1.6675 </code></pre>
+</div>
+<p>En un próximo tutorial trataremos la biblioteca <strong>dplyr</strong>, la cual permite explorar todas las posibilidades de manipulación de un <em>data frame</em>.</p>
+<div class="sourceCode" id="cb42"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
 </div>
@@ -1702,6 +1890,15 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <div class="d-appendix">
 </div>
 
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
 
 <!--radix_placeholder_site_after_body-->
 <!--/radix_placeholder_site_after_body-->

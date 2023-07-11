@@ -143,3 +143,125 @@ plot(y~x, xlab = "X", ylab = "Seno de X",
      type = "o", col = "darkblue")
 ```
 
+# Factores
+
+Los factores son estructuras que se utilizan para realizar una clasificación discreta de otros vectores de la misma longitud. Supongamos que se le pregunta a 10 personas que asisten a un evento, su país de origen. Esta información pudiera guardarse como un vector de la siguiente manera:
+
+```{r}
+pais.origen <- c("Argentina","Perú","Venezuela","Japón","Perú",
+                 "Argentina","Japón","Venezuela","Benín",
+                 "México")
+pais.origen
+```
+
+El mismo vector, guardado como factor:
+
+```{r}
+pais.origen <- as.factor(pais.origen)
+pais.origen
+# Sus niveles o categorías
+levels(pais.origen)
+# El resumen de cada categoría
+summary(pais.origen)
+```
+
+Este tipo de estructura es muy útil cuando se trabaja con diseño de experimentos, por ejemplo. El factor también puede estar ordenado, en cuyo caso se utiliza la función **ordered**. Un ejemplo:
+
+```{r}
+tratamientos <- factor(c(1,3,4,2,1,4,2,2,1,1,1,3,3,4))
+tratamientos <- ordered(tratamientos)
+tratamientos
+```
+
+# Matrices
+
+Para la construcción de matrices en R, se utilizan las funciones **ncol**, **nrow**, **matrix** y **byrow**. Lo primero que se debe hacer es crear el vector de datos que conformarán la matriz. Supongamos que se desea construir una matriz *3x3* con los siguientes datos: $1,2,3,4,5,6,7,8,9$
+
+```{r}
+data <- c(1,2,3,4,5,6,7,8,9)
+# Matriz 1
+M1 <- matrix(data, ncol = 3, byrow = TRUE)
+M1
+# Matriz 2
+M2 <- matrix(data,ncol = 3,byrow = FALSE)
+M2
+# Matriz 3
+data <- c(1,2,3,4,5,6)
+M3 <- matrix(data,nrow = 3,byrow = TRUE)
+M3
+```
+
+A partir de las matrices que se han construido, se puede calcular la matriz traspuesta y la matriz inversa, con las funciones **t** y **solve** respectivamente, de gran utilidad en el cálculo de predictores $\beta_i$ en modelos matemáticos:
+
+$$
+\beta_i=(X'X)^{-1}X'Y
+$$
+
+Un ejemplo de matriz traspuesta:
+
+```{r}
+# Matriz traspuesta de M1
+traspuesta.M1 <- t(M1)
+traspuesta.M1
+
+```
+
+Un ejemplo de matriz inversa:
+
+```{r}
+data <- c(6,4,3,5,1,3,5,7,8,2,3,5,4,6,2,7)
+matriz <- matrix(data,nrow = 4,byrow = TRUE)
+matriz
+ # Matriz inversa
+matriz.inversa <- solve(matriz)
+matriz.inversa
+```
+
+A partir de una matriz, se pueden desarrollar las operaciones aritméticas fundamentales. Caso especial es la multiplicación, ya que si se desea multiplicar una matriz **A** por un escalar, se escribe $escalar*A$, en tanto que si se desea realizar una multiplicación matricial, la notación utilizada es %*%:
+
+```{r}
+A <- matrix(data = c(1,2,3,4), nrow = 2, byrow = TRUE)
+A
+B <- matrix(data = c(1,2,3,4), nrow = 2, byrow = FALSE)
+B
+
+# Multiplicación matricial
+
+C <- A%*%B
+C
+```
+
+# Tablas de datos (*data frames*)
+
+Los *dataframes* son una generalización del concepto de matriz. La regla de oro de los *data frames* es que las variables están dispuestas en columnas y las observaciones en filas. A su vez, las columnas pueden ser distintas estructuras de datos: vectores (numéricos o de caracteres) y factores, pero todos los datos contenidos en una misma columna, deben ser del mismo tipo. veamos con un ejemplo:
+
+```{r}
+estudiantes <- c("María","Juan","Carlos","Rafael","Emilia",
+                 "Ana","Francisco","Vanessa")
+sexo <- factor(c("F","M","M","M","F","F","M","F"))
+talla <- c(1.55,1.60,1.70,1.65,1.53,1.58,1.72,1.64)
+datos <- data.frame(estudiantes, sexo,talla)
+datos
+```
+
+Si por ejemplo se desea conocer la talla promedio y la desviación estándar de todos los estudiantes, se podría utilizar las funciones **mean** y **sd**: 
+
+```{r}
+# Promedio de la talla
+mean(datos[,3])
+
+# Desviación estándar de la talla
+sd(datos[,3])
+```
+
+La notación **datos[,3]** significa que del *data frame* datos, se está considerando para el cálculo todas las filas de la columna 3 exclusivamente.
+
+Sin embargo, casi siempre interesa conocer la información contenida en sub.grupos que integran el *data frame*, como por ejemplo la talla promedio de los hombres y de las mujeres del grupo. Para ello, es muy útil el uso de la función **tapply**:
+
+```{r}
+# Uso de tapply
+
+tapply(datos$talla,datos$sexo,mean)
+```
+
+En un próximo tutorial trataremos la biblioteca **dplyr**, la cual permite explorar todas las posibilidades de manipulación de un *data frame*.
