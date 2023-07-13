@@ -8,26 +8,36 @@ date: 2023-07-11
 output:
   distill::distill_article:
     self_contained: false
-preview: butirato.png
+preview: butirato3D.png
 ---
 
-La *Mucina* constituye la secreción de las células *Globet* de las células epiteliales del intestino y el estómago, así como por las glándulas salivales. Está conformada principalmente por glucoproteínas que poseen en su estructura molecular *O*-Glucanos. Estos son polísacáridos ramificados compuestos principalmente por *N*-Acetilglucosamina, *N*-acetilgalactosamina (GlcNAc), galactosa y restos de fucosa, ácido siálico y carbohidratos azufrados.
+La *Mucina* es la secreción mucosa producida por las células *Globet* del epitelio intestinal y el estómago, así como por las glándulas salivales. Está conformada principalmente por glucoproteínas que poseen en su estructura molecular *O*-Glucanos. Estos son polísacáridos ramificados compuestos principalmente por *N*-Acetilglucosamina, *N*-acetilgalactosamina (GlcNAc), galactosa y restos de fucosa, ácido siálico y carbohidratos azufrados.
 
-Se han identificado dos aspectos de importancia fisiológica de la Mucina: en primer lugar, actúa como barrera protectora del epitelio intestinal y en segundo lugar, es un factor determinante de la homeóstasis entre el huésped y la microbiota intestinal. Si bien la Mucina es resistente al proceso digestivo en el intestino delgado, sirve de sustrato de fermentación en el colon.
+Se han identificado dos aspectos de importancia fisiológica con respecto a la Mucina: en primer lugar, actúa como barrera protectora del epitelio intestinal y gástrico; en segundo lugar, es un factor determinante de la homeostasis entre el huésped y la microbiota intestinal. Si bien la Mucina es resistente al proceso digestivo en el intestino delgado, bajo condiciones de ayuno, puede ser utilizada parcialmente como sustrato de fermentación en el colon.
 
-Es conocido que las dietas ricas en fibra dietética y almidones resistentes, promueven la fermentación microbiana en el intestino y la síntesis de ácidos grasos de cadena corta (SCFAs por sus siglas en inglés). Estos promueven una variedad de funciones fisiológicas: pueden actuar como fuente de energía en las células del intestino, activan directamente los receptores celulares de proteína G (GPCRs), regulan la expresión de citoquinas en las células T y contribuyen a su regulación.
+Es conocido que las dietas ricas en fibra dietética y almidones resistentes, promueven la fermentación microbiana en el intestino y la síntesis de ácidos grasos de cadena corta (SCFAs por sus siglas en inglés). Estos ácidos promueven una variedad de funciones fisiológicas: pueden actuar como fuente de energía en las células del intestino, activan directamente los receptores celulares de proteína G (GPCRs), regulan la expresión de citoquinas en las células T y contribuyen a su regulación.
 
-En animales de experimentación, se ha encontrado la presencia de SCFAs en concentraciones entre 30-60 mM, en ratas alimentadas con dietas ricas en fibra, así como animales alimentados con dietas libres de fibra dietaria, lo cual sugiere que los *O*-Glucanos de la Mucina pueden constituir una fuente de fibra endógena y una alternativa metabólica ante la ausencia de carbohidratos no digeribles de la dieta.
+En animales de experimentación, se ha encontrado la presencia de SCFAs en concentraciones entre 30-60 mM, en ratas alimentadas con dietas ricas en fibra, así como en animales alimentados con dietas libres de fibra dietaria. Estos resultados han sido corroborados en estudios con seres humanos sometidos a ayuno voluntario durante cortos periodos de tiempo. Esto sugiere que los *O*-Glucanos de la Mucina constituyen una fuente de fibra endógena y una alternativa metabólica ante la ausencia de carbohidratos no digeribles de la dieta.
 
-La evidencia científica indica que ante condiciones de ayuno moderado, los *O*-Glucanos de la Mucina promueven cambios en las poblaciones microbianas del microbioma intestinal humano, destacando la presencia de especies del género *Lachnospiraceae* *Bacteroides thetaiotaomicron* y *Akkermancia muciniphila*, microorganismos que sintetizan una variedad de enzimas involucradas en la hidrólisis de los *O*-Glucanos de la Mucina, *Anaerotruncus colihominis* y otras especies con los mecanismos enzimáticos capaces de utilizar la Mucina como sustrato energético, *R faecis* y otras especies productoras de ácido butírico (SCFAs) a partir de los *O*-Glucanos, lo cual sugiere que la utilización metabólica de la Mucina requiere la conformación de un consorcio bacteriano diverso. 
+La evidencia científica indica que ante condiciones de ayuno moderado, los *O*-Glucanos de la Mucina promueven cambios en las poblaciones microbianas del microbioma intestinal humano, favoreciendo la presencia de especies del género *Lachnospiraceae*, *Bacteroides thetaiotaomicron* y *Akkermancia muciniphila*. Estos microorganismos sintetizan una variedad de enzimas involucradas en la hidrólisis de los *O*-Glucanos de la Mucina. Especies bacterianas como *Anaerotruncus colihominis* y otras especies, también poseen los mecanismos enzimáticos capaces de utilizar la Mucina como sustrato energético. Microorganismos como *R faecis* y otras especies identificadas en humanos y animales, son productoras de ácido butírico (SCFAs) a partir de los *O*-Glucanos. Estos datos indican que , bajo condiciones de ayuno moderado, la utilización metabólica de la Mucina, requiere la conformación de un consorcio bacteriano muy diverso. 
 
-Los SCFAs: acetato, propionato y butirato están constituidos por 4-6 átomos de carbono y son la principal fuente de combustible de la mucosa del colon e impactan de manera positica la circulación mesentérica y la motilidad intestinal. Su ausencia está asociada con la atrofia de la mucosa colónica.
+Los SCFAs: acetato, propionato y butirato están constituidos por 4-6 átomos de carbono y son la principal fuente de combustible de la mucosa del colon e impactan de manera positiva la circulación mesentérica y la motilidad intestinal. Su ausencia está asociada con la atrofia de la mucosa colónica y la disminución de la inmunidad intestinal. A continuación se muestra la estructura química empírica y el modelo tridimensional del ácido butírico:
 
-La síntesis de los SCFAs en las especies microbianas citadas con anterioridad, se produce por la ruta metabólica Embden-Meyerof de la glucólisis anaerobia.
+```{r echo=FALSE, fig.align='center'}
+knitr::include_graphics("abutirico.png")
+```
 
-![Ruta metabólica Embden-Meyerof para la biosíntesis de SCFAs](butirato.png){width=40}
+```{r echo=FALSE, fig.align='center'}
+knitr::include_graphics("butirato3D.png")
+```
 
-La importancia de estos cambios en el microbioma intestinal, inducidos por periodos intermitentes de ayuno, radica en la producción de SCFAs y su influencia en la actividad inmunológica del cuerpo humano, tanto en la preservación de la homeóstasis intestinal como en su participación en el eje intestino-cerebro. Además de contribuir a regular la actividad celular de los Linfocitos T, los ácidos grasos de cadena corta y especialmente el Butirato, aceleran el metabolismo de los Linfocitos B y regulan la expresión genética que promueve la diferenciación de estas células.
+La biosíntesis de los SCFAs por las especies microbianas citadas con anterioridad, se produce por la ruta metabólica Embden-Meyerof de la glucólisis anaerobia.
+
+![Ruta metabólica Embden-Meyerof para la biosíntesis de SCFAs](butirato.png){width=30}
+
+La importancia de estos cambios en el microbioma intestinal, inducidos por periodos intermitentes de ayuno, radica en la producción de SCFAs y su influencia en la actividad inmunológica del cuerpo humano, tanto en la preservación de la inmunidad intestinal como en la participación en el eje intestino-cerebro, como agente neuroquímico involucrado en los mecanismos de regulación del apetito. Además de contribuir a regular la actividad celular de los Linfocitos T, los ácidos grasos de cadena corta y especialmente el Butirato, aceleran el metabolismo de los Linfocitos B y regulan la expresión genética que promueve la diferenciación de estas células.
+
+<iframe width="315" height="315" src="https://www.youtube.com/embed/UY_kRJqpUWo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## Referencias
 
