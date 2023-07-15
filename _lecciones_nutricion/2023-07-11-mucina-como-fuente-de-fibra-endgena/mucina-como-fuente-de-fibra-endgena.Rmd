@@ -37,7 +37,7 @@ La biosíntesis de los SCFAs por las especies microbianas citadas con anteriorid
 
 La importancia de estos cambios en el microbioma intestinal, inducidos por periodos intermitentes de ayuno, radica en la producción de SCFAs y su influencia en la actividad inmunológica del cuerpo humano, tanto en la preservación de la inmunidad intestinal como en la participación en el eje intestino-cerebro, como agente neuroquímico involucrado en los mecanismos de regulación del apetito. Además de contribuir a regular la actividad celular de los Linfocitos T, los ácidos grasos de cadena corta y especialmente el Butirato, aceleran el metabolismo de los Linfocitos B y regulan la expresión genética que promueve la diferenciación de estas células.
 
-<iframe width="315" height="315" src="https://www.youtube.com/embed/UY_kRJqpUWo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="400" src="https://www.youtube.com/embed/UY_kRJqpUWo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## Referencias
 
