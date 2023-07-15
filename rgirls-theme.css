@@ -135,7 +135,5 @@ d-article h3 {
     margin-bottom: 2em;
 }
 
-/*change url color */
-a {
-  color: #003F88;
-}
+a.one:link {color: #003F88;}
+
