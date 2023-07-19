@@ -11,37 +11,20 @@ links:
     url: 'https://instagram.com/feramitru target="_blank"'
   - label: '<i class="fas fa-envelope"></i> Email'
     url: 'mailto:proffelixmillan@gmail.com target="_blank"'
+  - label: '<i class="fab fa-github"></i> GitHub'
+    url: 'https://github.com/FRMT1 target="_blank"'
 output:
   postcards::trestles
 site: distill::distill_website
 ---
  
-## Biografía profesional
+## ¡Bienvenidos!
 
-Empecé mi carrera profesional como becario del Consejo Nacional de Investigaciones Científicas y Tecnologicas (CONICIT) en la Universidad Central de Venezuela, donde tuve la oportunidad de desarrollar un proceso químico conocido como amoniación, para la inactivación de Aflatoxina B1 en granos de cereales. Luego ingresé como profesor en la Universidad Simón Bolívar, donde me desempeñé los primeros 6 años de carrera como docente e investigador en el área de ingeniería de alimentos, desempeñándome posteriormente 20 años como profesor de diseño estadístico de experimentos, control de calidad y tecnología de alimentos, centrando mi experiencia de investigación en la aplicación de métodos estadísticos -metodología de superficie de respuesta y diseños de mezcla- y de aprendizaje automático -redes neuronales de aprendizaje supervisado y no supervisado para datos rectangulares-, en el desarrollo y procesamiento de alimentos. Soy autor de 20 publicaciones científicas en *RACI* y he sido tutor de numerosos trabajos de especialización y maestria en ciencia de alimentos y calidad, así como de pasantías profesionales en la empresa privada. Así mismo, me he desempeñado en la industria a través de servicios de consultoría en lo relaticvo a la determinación de la vida útil de alimentos, procesos térmicos de esterilización comercial y control estadístico de la calidad. Actualmente soy profesor titular jubilado de la Universidad Simón Bolivar y ofrezco servicios de educación y consultoría en el área de tecnología de alimentos y estadística aplicada, dirigidos a personas naturales y jurídicas.
+Empecé mi carrera profesional como becario del Consejo Nacional de Investigaciones Científicas y Tecnologicas (CONICIT) en la Universidad Central de Venezuela, donde tuve la oportunidad de desarrollar un proceso químico conocido como amoniación, para la inactivación de Aflatoxina B1 en granos de cereales. Luego ingresé como profesor en la Universidad Simón Bolívar, donde me desempeñé los primeros 6 años de carrera como docente e investigador en el área de ingeniería de alimentos, desempeñándome posteriormente 20 años como profesor de diseño estadístico de experimentos, control de calidad y tecnología de alimentos, centrando mi experiencia de investigación en la aplicación de métodos estadísticos -metodología de superficie de respuesta y diseños de mezcla- y de aprendizaje automático -redes neuronales de aprendizaje supervisado y no supervisado para datos rectangulares-, en el desarrollo y procesamiento de alimentos. Soy autor de 15 publicaciones científicas en *RACI* y he sido tutor de numerosos trabajos de especialización y maestria en ciencia de alimentos y calidad, así como de pasantías profesionales en la empresa privada. Así mismo, me he desempeñado en la industria a través de servicios de consultoría en lo relaticvo a la determinación de la vida útil de alimentos, procesos térmicos de esterilización comercial y control estadístico de la calidad. Actualmente soy profesor titular jubilado de la Universidad Simón Bolivar y ofrezco servicios de educación y consultoría en el área de tecnología de alimentos y estadística aplicada, dirigidos a personas naturales y jurídicas.
+
+[Curriculum vitae](https://www.canva.com/design/DAFpAeYMlD8/xZNTx3IRXcMWUQYrfOvgSg/view?utm_content=DAFpAeYMlD8&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink)
 
 
 
-## Educación
 
-**Universidad Central de Venezuela** | Caracas, VE
 
-M.Sc. en Ciencia y Tecnología de Alimentos | Abril de 1994 - Noviembre de 1997
-
-**Universidad Central de Venezuela** | Caracas, VE
-
-Lic. en Nutrición | Octubre de 1988 - Noviembre de 1993
-
-## Experiencia
-
-**Universidad Simón Bolívar** | Profesor Titular| Febrero 2012 - Abril 2022
-
-**Universidad Simón Bolívar** | Profesor Asociado | Enero 2007 - Febrero 2012
-
-**Universidad Simón Bolívar** | Profesor Agregado | Enero 2003 - Enero 2007
-
-**Universidad Simón Bolívar** | Profesor Asistente | Junio 2001 - Enero 2003
-
-**Universidad Simón Bolívar** | Profesor contratado | Enero 1998 - Junio 2001
-
-**Consejo Nacional de Investigaciones Científicas y Tecnológicas (CONICIT)** | Becario de Maestría | Abril 1996 - Octubre 1997
