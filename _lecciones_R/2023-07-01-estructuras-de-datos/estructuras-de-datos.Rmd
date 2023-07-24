@@ -12,7 +12,13 @@ output:
 
 # Introducción
 
-Antes de empezar, lo primero que debemos hacer es instalar el [software R](https://www.r-project.org/). En el enlace anterior, podemos descargar la última versión para nuestro sistema operativo (Linux, Windows o Mac), y luego instalarlo en el computador. Como pueden ver en el enlace, R es un programa de estadística computacional y a la vez un proyecto de softwware libre conformado por una gran comunidad a nivel mundial. Sus orígenes se remontan a 1993, cuando dos profesores de la universidad de Auckland: Ross ihaka y Robert Gentleman desarrollaron lo que sería una versión inicial de un software libre análogo al lenguaje S. Actualmente, es uno de lenguajes de programación más utilizados por la comunidad científica mundial, para la visualización, análisis de datos y aprendizaje automático. 
+Antes de empezar, lo primero que debemos hacer es instalar el [software R](https://www.r-project.org/). En el enlace anterior, podemos descargar la última versión para nuestro sistema operativo (Linux, Windows o Mac), y luego instalarlo en el computador.
+
+```{r echo=FALSE, fig.align='center', fig.height=4}
+knitr::include_graphics("Rlogo.png")
+```
+
+Como pueden ver en el enlace, R es un programa de estadística computacional y a la vez un proyecto de softwware libre conformado por una gran comunidad a nivel mundial. Sus orígenes se remontan a 1993, cuando dos profesores de la universidad de Auckland: Ross ihaka y Robert Gentleman desarrollaron lo que sería una versión inicial de un software libre análogo al lenguaje S. Actualmente, es uno de lenguajes de programación más utilizados por la comunidad científica mundial, para la visualización, análisis de datos y aprendizaje automático. 
 
 <iframe width="560" height="400" src="https://www.youtube.com/embed/XcBLEVknqvY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 

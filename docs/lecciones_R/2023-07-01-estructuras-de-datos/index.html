@@ -119,7 +119,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--/radix_placeholder_rmarkdown_metadata-->
   
   <script type="text/json" id="radix-resource-manifest">
-  {"type":"character","attributes":{},"value":["estructuras-de-datos_files/anchor-4.2.2/anchor.min.js","estructuras-de-datos_files/bowser-1.9.3/bowser.min.js","estructuras-de-datos_files/distill-2.2.21/template.v2.js","estructuras-de-datos_files/figure-html5/unnamed-chunk-11-1.png","estructuras-de-datos_files/header-attrs-2.18/header-attrs.js","estructuras-de-datos_files/jquery-3.6.0/jquery-3.6.0.js","estructuras-de-datos_files/jquery-3.6.0/jquery-3.6.0.min.js","estructuras-de-datos_files/jquery-3.6.0/jquery-3.6.0.min.map","estructuras-de-datos_files/popper-2.6.0/popper.min.js","estructuras-de-datos_files/tippy-6.2.7/tippy-bundle.umd.min.js","estructuras-de-datos_files/tippy-6.2.7/tippy-light-border.css","estructuras-de-datos_files/tippy-6.2.7/tippy.css","estructuras-de-datos_files/tippy-6.2.7/tippy.umd.min.js","estructuras-de-datos_files/webcomponents-2.0.0/webcomponents.js"]}
+  {"type":"character","attributes":{},"value":["estructuras-de-datos_files/anchor-4.2.2/anchor.min.js","estructuras-de-datos_files/bowser-1.9.3/bowser.min.js","estructuras-de-datos_files/distill-2.2.21/template.v2.js","estructuras-de-datos_files/figure-html5/unnamed-chunk-11-1.png","estructuras-de-datos_files/figure-html5/unnamed-chunk-12-1.png","estructuras-de-datos_files/header-attrs-2.18/header-attrs.js","estructuras-de-datos_files/jquery-3.6.0/jquery-3.6.0.js","estructuras-de-datos_files/jquery-3.6.0/jquery-3.6.0.min.js","estructuras-de-datos_files/jquery-3.6.0/jquery-3.6.0.min.map","estructuras-de-datos_files/popper-2.6.0/popper.min.js","estructuras-de-datos_files/tippy-6.2.7/tippy-bundle.umd.min.js","estructuras-de-datos_files/tippy-6.2.7/tippy-light-border.css","estructuras-de-datos_files/tippy-6.2.7/tippy.css","estructuras-de-datos_files/tippy-6.2.7/tippy.umd.min.js","estructuras-de-datos_files/webcomponents-2.0.0/webcomponents.js","Rlogo.png"]}
   </script>
   <!--radix_placeholder_navigation_in_header-->
 <meta name="distill:offset" content="../.."/>
@@ -2532,8 +2532,12 @@ Blog
 
 <div class="d-article">
 <h1 id="introducción">Introducción</h1>
-<p>Antes de empezar, lo primero que debemos hacer es instalar el <a href="https://www.r-project.org/">software R</a>. En el enlace anterior, podemos descargar la última versión para nuestro sistema operativo (Linux, Windows o Mac), y luego instalarlo en el computador. Como pueden ver en el enlace, R es un programa de estadística computacional y a la vez un proyecto de softwware libre conformado por una gran comunidad a nivel mundial. Sus orígenes se remontan a 1993, cuando dos profesores de la universidad de Auckland: Ross ihaka y Robert Gentleman desarrollaron lo que sería una versión inicial de un software libre análogo al lenguaje S. Actualmente, es uno de lenguajes de programación más utilizados por la comunidad científica mundial, para la visualización, análisis de datos y aprendizaje automático.</p>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/XcBLEVknqvY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+<p>Antes de empezar, lo primero que debemos hacer es instalar el <a href="https://www.r-project.org/">software R</a>. En el enlace anterior, podemos descargar la última versión para nuestro sistema operativo (Linux, Windows o Mac), y luego instalarlo en el computador.</p>
+<div class="layout-chunk" data-layout="l-body">
+<p><img src="Rlogo.png" width="362" style="display: block; margin: auto;" /></p>
+</div>
+<p>Como pueden ver en el enlace, R es un programa de estadística computacional y a la vez un proyecto de softwware libre conformado por una gran comunidad a nivel mundial. Sus orígenes se remontan a 1993, cuando dos profesores de la universidad de Auckland: Ross ihaka y Robert Gentleman desarrollaron lo que sería una versión inicial de un software libre análogo al lenguaje S. Actualmente, es uno de lenguajes de programación más utilizados por la comunidad científica mundial, para la visualización, análisis de datos y aprendizaje automático.</p>
+<iframe width="560" height="400" src="https://www.youtube.com/embed/XcBLEVknqvY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
 </iframe>
 <p>Luego de instalar el programa, debemos descargar un editor de código o un ambiente de desarrollo integrado (IDE por sus siglas en inglés), lo cual facilita considerablemente el desarrollo de proyectos en R. La IDE más utilizada -y es realmente buena- es Rstudio, la cual pueden descargar e instalar en el siguiente enlace: <a href="https://posit.co/download/rstudio-desktop/">Rstudio</a>, para el sistema operativo que corresponda.</p>
 <p>Ahora sí, veamos las principales estructuras de datos en R:</p>
@@ -2706,7 +2710,7 @@ Blog
 <span>     main<span class='op'>=</span> <span class='st'>"Gráfico a partir de vectores"</span>,</span>
 <span>     type <span class='op'>=</span> <span class='st'>"o"</span>, col <span class='op'>=</span> <span class='st'>"darkblue"</span><span class='op'>)</span></span></code></pre>
 </div>
-<p><img src="estructuras-de-datos_files/figure-html5/unnamed-chunk-11-1.png" width="624" style="display: block; margin: auto;" /></p>
+<p><img src="estructuras-de-datos_files/figure-html5/unnamed-chunk-12-1.png" width="624" style="display: block; margin: auto;" /></p>
 </div>
 <h1 id="factores">Factores</h1>
 <p>Los factores son estructuras que se utilizan para realizar una clasificación discreta de otros vectores de la misma longitud. Supongamos que se le pregunta a 10 personas que asisten a un evento, su país de origen. Esta información pudiera guardarse como un vector de la siguiente manera:</p>
