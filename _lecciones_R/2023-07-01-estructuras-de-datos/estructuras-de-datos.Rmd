@@ -14,7 +14,7 @@ output:
 
 Antes de empezar, lo primero que debemos hacer es instalar el [software R](https://www.r-project.org/). En el enlace anterior, podemos descargar la última versión para nuestro sistema operativo (Linux, Windows o Mac), y luego instalarlo en el computador.
 
-```{r echo=FALSE, fig.align='center', fig.height=4}
+```{r echo=FALSE, fig.align='center'}
 knitr::include_graphics("Rlogo.png")
 ```
 

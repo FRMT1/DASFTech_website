@@ -1,6 +1,6 @@
 ---
 title: "Félix R. Millán T."
-image: "CANEA-1.jpg"
+image: "perfil.jpg"
 language: "es"
 links:
   - label: '<i class="fab fa-linkedin"></i> Linkedin'

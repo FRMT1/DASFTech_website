@@ -15,7 +15,13 @@ output:
 ---
 
 
-La formación permanente es indispensable para el desarrollo profesional personal y para el crecimiento de cualquier empresa. Es por ello que me he propuesto ofrecer a personas naturales y jurídicas, mi experiencia profesional para la capacitación en línea y, eventualmente en la compañía, sobre diversos tópicos de la ciencia y tecnología de alimentos, la estadística aplicada a la industria y el aprendizaje automático. Concomitantemente, también se ofrecen servicios de consultoría en el desarrollo y procesamiento de alimentos. A continuación se presentan los principales servicios ofrecidos:
+La formación permanente es indispensable para el desarrollo profesional personal y para el crecimiento de cualquier empresa. Es por ello que me he propuesto fundar la empresa **CANEA** ofrecer a personas naturales y jurídicas, mi experiencia profesional para la capacitación en línea y, eventualmente en la compañía, sobre diversos tópicos de la ciencia y tecnología de alimentos, la estadística aplicada a la industria y el aprendizaje automático. Concomitantemente, también se ofrecen servicios de consultoría en el desarrollo y procesamiento de alimentos.
+
+```{r echo=FALSE, fig.align='center', out.width=350}
+knitr::include_graphics("CANEA-1.png")
+```
+
+A continuación se presentan los principales servicios ofrecidos:
 
 
 # 1. Educación 
