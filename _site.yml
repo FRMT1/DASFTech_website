@@ -22,3 +22,6 @@ navbar:
     - text: "CV"
       href: CV.html
 output: distill::distill_article
+collections:
+  post:
+    subscribe: _subscribe.html
