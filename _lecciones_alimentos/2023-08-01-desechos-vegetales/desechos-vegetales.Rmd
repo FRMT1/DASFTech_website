@@ -75,4 +75,4 @@ knitr::include_graphics("DV.png")
 
 ## Referencia
 
-* Zhou Y., Tian Y., Yang B. Root vegetable side streams as sources of        functional ingredients for food nutraceutical and pharmaceutical           applications: the currect status and future prospects. *Trends inf Food    Science & Technology* (2023). Vol. 137. Pp. 1-16
+* Zhou Y., Tian Y., Yang B. Root vegetable side streams as sources of        functional ingredients for food nutraceutical and pharmaceutical           applications: the currect status and future prospects. *Trends in Food    Science & Technology* (2023). Vol. 137. Pp. 1-16
