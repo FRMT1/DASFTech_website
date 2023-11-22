@@ -10,7 +10,7 @@ output:
 ---
 
 
-# Introducción
+# Introducción {#principio}
 
 Antes de empezar, lo primero que debemos hacer es instalar el [software R](https://www.r-project.org/). En el enlace anterior, podemos descargar la última versión para nuestro sistema operativo (Linux, Windows o Mac), y luego instalarlo en el computador.
 
@@ -273,3 +273,9 @@ tapply(datos$talla,datos$sexo,mean)
 ```
 
 En un próximo tutorial trataremos la biblioteca **dplyr**, la cual permite explorar todas las posibilidades de manipulación de un *data frame*.
+
+<br />
+
+<a href="#principio">
+Volver al principio
+</a>

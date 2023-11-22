@@ -93,8 +93,8 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 
   <!--  https://schema.org/Article -->
-  <meta property="article:published" itemprop="datePublished" content="2023-09-07"/>
-  <meta property="article:created" itemprop="dateCreated" content="2023-09-07"/>
+  <meta property="article:published" itemprop="datePublished" content="2023-11-22"/>
+  <meta property="article:created" itemprop="dateCreated" content="2023-11-22"/>
 
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
   <meta property="og:title" content="Principal: Servicios educativos y consultoría"/>
@@ -110,7 +110,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","language","date","output"]}},"value":[{"type":"character","attributes":{},"value":["Servicios educativos y consultoría"]},{"type":"character","attributes":{},"value":["es"]},{"type":"character","attributes":{},"value":["2023-09-07"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["toc"]}},"value":[{"type":"logical","attributes":{},"value":[true]}]}]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","language","date","output"]}},"value":[{"type":"character","attributes":{},"value":["Servicios educativos y consultoría"]},{"type":"character","attributes":{},"value":["es"]},{"type":"character","attributes":{},"value":["2023-11-22"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["toc","toc_float"]}},"value":[{"type":"logical","attributes":{},"value":[true]},{"type":"logical","attributes":{},"value":[true]}]}]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   <!--radix_placeholder_navigation_in_header-->
@@ -2169,7 +2169,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   html {
     /*-- Main font sizes --*/
     --title-size:      30px;
-    --body-size:       18px;
+    --body-size:       20px;
     --code-size:       14px;
     --aside-size:      12px;
     --fig-cap-size:    13px;
@@ -2198,7 +2198,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   /*-- ARTICLE TABLE OF CONTENTS --*/
   .d-contents {
     --heading-size:    18px;
-    --contents-size:   13px;
+    --contents-size:   15px;
   }
 
   /*-- ARTICLE APPENDIX --*/
@@ -2213,11 +2213,11 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   /* These properties only apply to Distill sites and blogs  */
 
   .distill-site-header {
-    --title-size:       18px;
+    --title-size:       20px;
     --text-color:       rgba(255, 255, 255, 0.8);
-    --text-size:        18px;
+    --text-size:        20px;
     --hover-color:      white;
-    --bkgd-color:       #003F88   
+    --bkgd-color:       #14213D;   
   }
 
   .distill-site-footer {
@@ -2231,20 +2231,20 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   /* Add any additional CSS rules below                      */
 
   h1 {
-    color: #003F88;
+    color: #14213D;
     font-size: 36px;
   }
 
   h2 {
-    color: #E85D04;
+    color: #E85004;
     font-size: 30px;
   }
 
   .btn-outline-dark {
       background-color: transparent; 
-      color: rgba(0,63,136,1);
+      color: #1B4332;
       border: 1px solid;
-      border-color: rgba(0,63,136,1);
+      border-color: #1B4332;
   }
 
   .btn-outline-dark:hover {
@@ -2279,7 +2279,8 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     visibility: visible;
     display: block;
     position: absolute;
-    padding: 5px;
+    padding: 12px;
+    color:#1B4332;
   }
 
   .d-contents nav h3 {
@@ -2287,6 +2288,11 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
       margin-top: 0;
       margin-bottom: 2em;
   }
+
+  p{
+    text-align:justify;
+  }
+
 
   a.one:link {color: #003F88;}
   </style>
@@ -2465,7 +2471,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"Servicios educativos y consultoría","authors":[],"publishedDate":"2023-09-07T00:00:00.000-04:00"}
+{"title":"Servicios educativos y consultoría","authors":[],"publishedDate":"2023-11-22T00:00:00.000-04:00"}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -2521,7 +2527,7 @@ Blog
 <nav class="l-text toc figcaption" id="TOC">
 <h3>Contents</h3>
 <ul>
-<li><a href="#educación" id="toc-educación">1. Educación</a>
+<li><a href="#principio" id="toc-principio">1. Educación</a>
 <ul>
 <li><a href="#desarrollo-de-páginas-web-personales-con-r" id="toc-desarrollo-de-páginas-web-personales-con-r"><strong>1.1</strong> Desarrollo de páginas web personales con R</a></li>
 <li><a href="#estadística-básica-para-la-empresa" id="toc-estadística-básica-para-la-empresa"><strong>1.2</strong> Estadística básica para la empresa</a></li>
@@ -2540,7 +2546,7 @@ Blog
 <p><img src="FM.png" width="350" style="display: block; margin: auto;" /></p>
 </div>
 <p>A continuación se presentan los principales servicios ofrecidos:</p>
-<h1 id="educación">1. Educación</h1>
+<h1 id="principio">1. Educación</h1>
 <h2 id="desarrollo-de-páginas-web-personales-con-r"><strong>1.1</strong> Desarrollo de páginas web personales con R</h2>
 <p>Este curso tiene como objetivo la capacitación para el desarrollo de páginas web personales, mediante el lenguaje de programación <a href="https://www.r-project.org/">R</a> y el paquete <a href="https://cran.r-project.org/web/packages/distill/index.html">distill</a>. El participante, aprenderá a integrar el ambiente de desarrollo integrado (IDE por sus siglas en inglés) <a href="https://posit.co/download/rstudio-desktop/">Rstudio</a>, con tecnologías como <a href="https://git-scm.com/">Git</a> para el control de versiones y la creación del repositorio y hospedaje de su página web en <a href="https://github.com/">Github</a> y/o <a href="https://www.netlify.com/">Netlify</a>. El curso será dictado en su totalidad, a través de la plataforma <em>Thinkific</em> y el material estará disponible hasta la culminación del curso. Está dirigido a todas aquellas personas que deseen crear una página web personal o profesional y que no posean conocimientos avanzados de programación. Sí deseas mayor información, por favor escríbeme al correo electrónico.</p>
 <ul>
@@ -2600,6 +2606,10 @@ Blog
 </ul>
 <h1 id="consultoría">2. Consultoría</h1>
 <p>Se ofrecen servicios de asesoramiento en desarrollo y procesamiento de alimentos e implementación de métodos estadísticos para la calidad, desde la investigación hasta el control de procesos, a pequeñas, medianas y grandes empresas. Cualquier información adicional, no dudes en hacer contacto por correo electrónico.</p>
+<p><br /></p>
+<p><a href="#principio">
+Volver al principio
+</a></p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->

@@ -2177,7 +2177,7 @@ d-appendix {
 html {
   /*-- Main font sizes --*/
   --title-size:      30px;
-  --body-size:       18px;
+  --body-size:       20px;
   --code-size:       14px;
   --aside-size:      12px;
   --fig-cap-size:    13px;
@@ -2206,7 +2206,7 @@ d-byline {
 /*-- ARTICLE TABLE OF CONTENTS --*/
 .d-contents {
   --heading-size:    18px;
-  --contents-size:   13px;
+  --contents-size:   15px;
 }
 
 /*-- ARTICLE APPENDIX --*/
@@ -2221,11 +2221,11 @@ d-appendix {
 /* These properties only apply to Distill sites and blogs  */
 
 .distill-site-header {
-  --title-size:       18px;
+  --title-size:       20px;
   --text-color:       rgba(255, 255, 255, 0.8);
-  --text-size:        18px;
+  --text-size:        20px;
   --hover-color:      white;
-  --bkgd-color:       #003F88   
+  --bkgd-color:       #14213D;   
 }
 
 .distill-site-footer {
@@ -2239,20 +2239,20 @@ d-appendix {
 /* Add any additional CSS rules below                      */
 
 h1 {
-  color: #003F88;
+  color: #14213D;
   font-size: 36px;
 }
 
 h2 {
-  color: #E85D04;
+  color: #E85004;
   font-size: 30px;
 }
 
 .btn-outline-dark {
     background-color: transparent; 
-    color: rgba(0,63,136,1);
+    color: #1B4332;
     border: 1px solid;
-    border-color: rgba(0,63,136,1);
+    border-color: #1B4332;
 }
 
 .btn-outline-dark:hover {
@@ -2287,7 +2287,8 @@ d-article h3 {
   visibility: visible;
   display: block;
   position: absolute;
-  padding: 5px;
+  padding: 12px;
+  color:#1B4332;
 }
 
 .d-contents nav h3 {
@@ -2295,6 +2296,11 @@ d-article h3 {
     margin-top: 0;
     margin-bottom: 2em;
 }
+
+p{
+  text-align:justify;
+}
+
 
 a.one:link {color: #003F88;}
 </style>
@@ -2531,7 +2537,7 @@ Blog
 </div>
 
 <div class="d-article">
-<h1 id="introducción">Introducción</h1>
+<h1 id="principio">Introducción</h1>
 <p>Antes de empezar, lo primero que debemos hacer es instalar el <a href="https://www.r-project.org/">software R</a>. En el enlace anterior, podemos descargar la última versión para nuestro sistema operativo (Linux, Windows o Mac), y luego instalarlo en el computador.</p>
 <div class="layout-chunk" data-layout="l-body">
 <p><img src="Rlogo.png" width="362" style="display: block; margin: auto;" /></p>
@@ -2900,6 +2906,10 @@ Levels: 1 &lt; 2 &lt; 3 &lt; 4</code></pre>
 1.5750 1.6675 </code></pre>
 </div>
 <p>En un próximo tutorial trataremos la biblioteca <strong>dplyr</strong>, la cual permite explorar todas las posibilidades de manipulación de un <em>data frame</em>.</p>
+<p><br /></p>
+<p><a href="#principio">
+Volver al principio
+</a></p>
 <div class="sourceCode" id="cb42"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->

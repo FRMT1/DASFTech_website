@@ -12,6 +12,7 @@ date: "`r Sys.Date()`"
 output: 
   distill::distill_article:
     toc: true
+    toc_float: true
 ---
 
 
@@ -24,7 +25,7 @@ knitr::include_graphics("FM.png")
 A continuación se presentan los principales servicios ofrecidos:
 
 
-# 1. Educación 
+# 1. Educación {#principio} 
 
 ## **1.1** Desarrollo de páginas web personales con R
 
@@ -94,6 +95,11 @@ Este curso tiene como objetivo la comprensión de los fundamentos que rigen el a
 
 Se ofrecen servicios de asesoramiento en desarrollo y procesamiento de alimentos e implementación de métodos estadísticos para la calidad, desde la investigación hasta el control de procesos, a pequeñas, medianas y grandes empresas. Cualquier información adicional, no dudes en hacer contacto por correo electrónico.
 
+<br />
+
+<a href="#principio">
+Volver al principio
+</a>
 
 
 

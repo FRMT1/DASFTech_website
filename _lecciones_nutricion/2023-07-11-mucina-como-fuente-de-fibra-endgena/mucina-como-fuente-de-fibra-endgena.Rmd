@@ -11,6 +11,8 @@ output:
 preview: butirato3D.png
 ---
 
+# Mucina {#principio}
+
 La *Mucina* es la secreción mucosa producida por las células *Globet* del epitelio intestinal y el estómago, así como por las glándulas salivales. Está conformada principalmente por glucoproteínas que poseen en su estructura molecular *O*-Glucanos. Estos son polísacáridos ramificados compuestos principalmente por *N*-Acetilglucosamina, *N*-acetilgalactosamina (GlcNAc), galactosa y restos de fucosa, ácido siálico y carbohidratos azufrados.
 
 Se han identificado dos aspectos de importancia fisiológica con respecto a la Mucina: en primer lugar, actúa como barrera protectora del epitelio intestinal y gástrico; en segundo lugar, es un factor determinante de la homeostasis entre el huésped y la microbiota intestinal. Si bien la Mucina es resistente al proceso digestivo en el intestino delgado, bajo condiciones de ayuno, puede ser utilizada parcialmente como sustrato de fermentación en el colon.
@@ -46,3 +48,9 @@ La importancia de estos cambios en el microbioma intestinal, inducidos por perio
 * Reilly K.J., Rombeau J.L. Metabolism and potencial clinical applications of short-chain fatty acids. *Clinical Nutrition* (1993); 12 (Suppl 1): S97-S105.
 
 * Su J., Wang Y., Zhang X., Ma M., Xie Z., Pan Q., Ma Z., Peppelenbosch M.P. Remodeling of the gut microbiome during Ramadam-associated intermittent fasting. *American Journal of Clinical Nutrition* (2021);113:1332-1342.
+
+<br />
+
+<a href="#principio">
+Volver al principio
+</a>
