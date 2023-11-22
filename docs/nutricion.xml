@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+    <title>Principal</title>
+    <link>http://felixmillan.netlify.app</link>
+    <atom:link href="http://felixmillan.netlify.app/nutricion.xml" rel="self" type="application/rss+xml"/>
+    <description>mi website
+</description>
+    <generator>Distill</generator>
+    <lastBuildDate>Tue, 11 Jul 2023 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Mucina como fuente de fibra endógena</title>
+      <dc:creator>Félix Millán</dc:creator>
+      <link>http://felixmillan.netlify.app/lecciones_nutricion/2023-07-11-mucina-como-fuente-de-fibra-endgena</link>
+      <description>Se aborda una visión breve del impacto del ayuno intermitente en el microbioma intestinal, y la utilización de los O-Glucanos de la Mucina como fuente de fibra endógena y sustrato de fermentación, para la síntesis de ácidos grasos de cadena corta y su importancia en la salud humana.</description>
+      <guid>http://felixmillan.netlify.app/lecciones_nutricion/2023-07-11-mucina-como-fuente-de-fibra-endgena</guid>
+      <pubDate>Tue, 11 Jul 2023 00:00:00 +0000</pubDate>
+      <media:content url="http://felixmillan.netlify.app/lecciones_nutricion/2023-07-11-mucina-como-fuente-de-fibra-endgena/butirato3D.png" medium="image" type="image/png" width="558" height="315"/>
+    </item>
+  </channel>
+</rss>

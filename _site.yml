@@ -1,6 +1,8 @@
 name: "."
 language: "es"
 title: "Principal"
+base_url: http://felixmillan.netlify.app
+google_analytics: "G-79ZMSKS60W"
 description: |
   mi website
 output_dir: "docs"
