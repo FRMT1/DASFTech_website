@@ -8,6 +8,8 @@ description: |
 output_dir: "docs"
 theme: rgirls-theme.css
 navbar:
+  logo:
+    image: FM.png
   right:
     - text: "Servicios"
       href: servicios.html
