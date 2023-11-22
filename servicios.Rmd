@@ -16,6 +16,17 @@ output:
 ---
 
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-79ZMSKS60W"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-79ZMSKS60W');
+</script>
+
+
 La formación permanente es indispensable para el desarrollo profesional personal y para el crecimiento de cualquier empresa. Es por ello que me he propuesto fundar la empresa **FM Ciencia de Datos & Tecnología de Alimentos** ofrecer a personas naturales y jurídicas, mi experiencia profesional para la capacitación en línea y, eventualmente en la compañía, sobre diversos tópicos de la ciencia y tecnología de alimentos, la estadística aplicada a la industria y el aprendizaje automático. Concomitantemente, también se ofrecen servicios de consultoría en el desarrollo y procesamiento de alimentos.
 
 ```{r echo=FALSE, fig.align='center', out.width=350}

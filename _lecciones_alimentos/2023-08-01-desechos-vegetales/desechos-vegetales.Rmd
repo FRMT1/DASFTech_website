@@ -10,6 +10,17 @@ output:
     self_contained: false
 ---
 
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-79ZMSKS60W"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-79ZMSKS60W');
+</script>
+
 ## Perspectiva general {#principio}
 
 Según datos de la Organización de las Naciones Unidas para la Agricultura y los Alimentos (FAO por sus siglas en inglés), se estima que para el año 2050 la población mundial alcance los 9 millardos de habitantes, lo cual se traducirá en un incremento del 70% en la demanda de alimentos. 

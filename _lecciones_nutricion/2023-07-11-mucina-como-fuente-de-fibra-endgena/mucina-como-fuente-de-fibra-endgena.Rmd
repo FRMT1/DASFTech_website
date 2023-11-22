@@ -11,6 +11,17 @@ output:
 preview: butirato3D.png
 ---
 
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-79ZMSKS60W"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-79ZMSKS60W');
+</script>
+
 # Mucina {#principio}
 
 La *Mucina* es la secreción mucosa producida por las células *Globet* del epitelio intestinal y el estómago, así como por las glándulas salivales. Está conformada principalmente por glucoproteínas que poseen en su estructura molecular *O*-Glucanos. Estos son polísacáridos ramificados compuestos principalmente por *N*-Acetilglucosamina, *N*-acetilgalactosamina (GlcNAc), galactosa y restos de fucosa, ácido siálico y carbohidratos azufrados.

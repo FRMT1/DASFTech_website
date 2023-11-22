@@ -10,6 +10,17 @@ output:
 ---
 
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-79ZMSKS60W"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-79ZMSKS60W');
+</script>
+
+
 # Introducción {#principio}
 
 Antes de empezar, lo primero que debemos hacer es instalar el [software R](https://www.r-project.org/). En el enlace anterior, podemos descargar la última versión para nuestro sistema operativo (Linux, Windows o Mac), y luego instalarlo en el computador.
