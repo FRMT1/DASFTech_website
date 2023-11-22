@@ -30,6 +30,8 @@ site: distill::distill_website
 </script>
 
 
+<head><link rel="icon" href="FM.ico"></head>
+
 ## ¡Bienvenidos! 
 
 *Les doy la más cordial bienvenida a mi página web personal, en espera que pueda serles de utilidad en el aprovechamiento de los tutoriales y artículos publicados, así como para la contratación de los servicios ofertados*.
