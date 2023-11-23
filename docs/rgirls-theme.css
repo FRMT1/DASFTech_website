@@ -63,7 +63,7 @@ d-appendix {
   --text-color:       rgba(255, 255, 255, 0.8);
   --text-size:        15px;
   --hover-color:      white;
-  --bkgd-color:       #0F2E3D;   
+  --bkgd-color:       #15616D;   
 }
 
 .distill-site-footer {
@@ -71,7 +71,7 @@ d-appendix {
   --text-size:        13px;
   --text-align:       center;
   --hover-color:      white;
-  --bkgd-color:       #0F2E3D;
+  --bkgd-color:       #15616D;
 }
 
 /*-- Additional custom styles --*/
