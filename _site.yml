@@ -9,7 +9,7 @@ output_dir: "docs"
 theme: rgirls-theme.css
 navbar:
   logo:
-    image: FM.png
+    image: icono.png
   right:
     - text: "Servicios"
       href: servicios.html
