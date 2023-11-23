@@ -30,7 +30,6 @@ site: distill::distill_website
 </script>
 
 
-<head><link rel="icon" href="fm.ico"></head>
 
 ## ¡Bienvenidos! 
 
