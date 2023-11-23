@@ -1,6 +1,6 @@
 ---
 title: ""
-image: "fm.jpg"
+image: "FM.png"
 language: "es"
 links:
   - label: '<i class="fab fa-linkedin"></i> Linkedin'
