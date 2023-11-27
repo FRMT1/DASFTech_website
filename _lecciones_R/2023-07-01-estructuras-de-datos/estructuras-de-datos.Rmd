@@ -1,5 +1,10 @@
 ---
 title: "Estructuras de datos"
+categories:
+  - Vectores
+  - Factores
+  - Matrices
+  - Tablas de datos
 description: Este apartado trata sobre las principales estructuras de datos en R. Se verá como conformar vectores, factores, matrices y tablas de datos. Es un tutorial muy útil para abordar aspectos más avanzados del programa. 
 author:
   - name: Félix Millán
