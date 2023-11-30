@@ -36,8 +36,8 @@ knitr::include_graphics("dplyr.png")
 
 Debemos primero instalar la biblioteca y luego llamarla, escribiendo el siguiente código en la consola de R:
 
-* **install.packages("dplyr")
-* **library(dplyr)
+* **install.packages("dplyr")**
+* **library(dplyr)**
 
 Y ahora sí, estamos listos para explorar las principales funciones de esta biblioteca.
 
@@ -103,7 +103,7 @@ aviones <- planes %>%
 head(aviones)
 ```
 
-Noten eluso del caracter **&** para establecer la condición AND. DE igual forma, el caracter **|** se utiliza para la condición OR. Por ejemplo:
+Noten el uso del caracter **&** para establecer la condición AND. De igual forma, el caracter **|** se utiliza para la condición OR. Por ejemplo:
 
 ```{r}
 aviones <- planes %>%
@@ -196,7 +196,7 @@ df <- planes %>%
 head(df)
 ```
 
-Si retomamos el *dataframe de peso y talla que elaboramos más arriba, añadimos otros datos e incorporamos la variable sexo:
+Si retomamos el *dataframe* de peso y talla que elaboramos más arriba, añadimos otros datos e incorporamos la variable sexo:
 
 ```{r}
 sexo <- c("Mujer","Hombre","Hombre","Mujer", "Mujer","Hombre","Mujer")
