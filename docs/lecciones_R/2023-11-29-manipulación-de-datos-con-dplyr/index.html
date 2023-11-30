@@ -134,7 +134,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--/radix_placeholder_rmarkdown_metadata-->
   
   <script type="text/json" id="radix-resource-manifest">
-  {"type":"character","attributes":{},"value":["dplyr.png"]}
+  {"type":"character","attributes":{},"value":["dplyr.png","manipulacin-de-datos-con-dplyr_files/anchor-4.2.2/anchor.min.js","manipulacin-de-datos-con-dplyr_files/bowser-1.9.3/bowser.min.js","manipulacin-de-datos-con-dplyr_files/distill-2.2.21/template.v2.js","manipulacin-de-datos-con-dplyr_files/header-attrs-2.18/header-attrs.js","manipulacin-de-datos-con-dplyr_files/jquery-3.6.0/jquery-3.6.0.js","manipulacin-de-datos-con-dplyr_files/jquery-3.6.0/jquery-3.6.0.min.js","manipulacin-de-datos-con-dplyr_files/jquery-3.6.0/jquery-3.6.0.min.map","manipulacin-de-datos-con-dplyr_files/popper-2.6.0/popper.min.js","manipulacin-de-datos-con-dplyr_files/tippy-6.2.7/tippy-bundle.umd.min.js","manipulacin-de-datos-con-dplyr_files/tippy-6.2.7/tippy-light-border.css","manipulacin-de-datos-con-dplyr_files/tippy-6.2.7/tippy.css","manipulacin-de-datos-con-dplyr_files/tippy-6.2.7/tippy.umd.min.js","manipulacin-de-datos-con-dplyr_files/webcomponents-2.0.0/webcomponents.js"]}
   </script>
   <!--radix_placeholder_navigation_in_header-->
 <meta name="distill:offset" content="../.."/>
@@ -2602,8 +2602,8 @@ Blog
 </div>
 <p>Debemos primero instalar la biblioteca y luego llamarla, escribiendo el siguiente código en la consola de R:</p>
 <ul>
-<li>**install.packages(“dplyr”)</li>
-<li>**library(dplyr)</li>
+<li><strong>install.packages(“dplyr”)</strong></li>
+<li><strong>library(dplyr)</strong></li>
 </ul>
 <p>Y ahora sí, estamos listos para explorar las principales funciones de esta biblioteca.</p>
 <h1 id="principales-funciones-de-dplyr">Principales funciones de dplyr</h1>
@@ -2720,7 +2720,7 @@ Blog
 3 N851NW  AIRBUS INDUSTRIE   379
 4 N907JB  AIRBUS INDUSTRIE   379</code></pre>
 </div>
-<p>Noten eluso del caracter <strong>&amp;</strong> para establecer la condición AND. DE igual forma, el caracter <strong>|</strong> se utiliza para la condición OR. Por ejemplo:</p>
+<p>Noten el uso del caracter <strong>&amp;</strong> para establecer la condición AND. De igual forma, el caracter <strong>|</strong> se utiliza para la condición OR. Por ejemplo:</p>
 <div class="layout-chunk" data-layout="l-body">
 <div class="sourceCode">
 <pre class="sourceCode r"><code class="sourceCode r"><span><span class='va'>aviones</span> <span class='op'>&lt;-</span> <span class='va'>planes</span> <span class='op'>%&gt;%</span></span>
@@ -2869,7 +2869,7 @@ Blog
 5 AVIAT AIRCRAFT INC        2 
 6 AVIONS MARCEL DASSAULT   12 </code></pre>
 </div>
-<p>Si retomamos el *dataframe de peso y talla que elaboramos más arriba, añadimos otros datos e incorporamos la variable sexo:</p>
+<p>Si retomamos el <em>dataframe</em> de peso y talla que elaboramos más arriba, añadimos otros datos e incorporamos la variable sexo:</p>
 <div class="layout-chunk" data-layout="l-body">
 <div class="sourceCode">
 <pre class="sourceCode r"><code class="sourceCode r"><span><span class='va'>sexo</span> <span class='op'>&lt;-</span> <span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span><span class='op'>(</span><span class='st'>"Mujer"</span>,<span class='st'>"Hombre"</span>,<span class='st'>"Hombre"</span>,<span class='st'>"Mujer"</span>, <span class='st'>"Mujer"</span>,<span class='st'>"Hombre"</span>,<span class='st'>"Mujer"</span><span class='op'>)</span></span>
