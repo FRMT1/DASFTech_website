@@ -22,7 +22,7 @@
     </item>
     <item>
       <title>Estructuras de datos</title>
-      <dc:creator>Félix Millán</dc:creator>
+      <dc:creator>Félix R. Millán-Trujillo.</dc:creator>
       <link>http://felixmillan.netlify.app/lecciones_R/2023-07-01-estructuras-de-datos</link>
       <description>Este apartado trata sobre las principales estructuras de datos en R. Se verá como conformar vectores, factores, matrices y tablas de datos. Es un tutorial muy útil para abordar aspectos más avanzados del programa.</description>
       <category>Tipos de datos</category>
