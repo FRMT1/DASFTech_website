@@ -10,7 +10,7 @@
     <lastBuildDate>Wed, 29 Nov 2023 00:00:00 +0000</lastBuildDate>
     <item>
       <title>Manipulación de datos con dplyr</title>
-      <dc:creator>Félix Millán</dc:creator>
+      <dc:creator>Félix R. Millán-Trujillo</dc:creator>
       <link>http://felixmillan.netlify.app/lecciones_R/2023-11-29-manipulación-de-datos-con-dplyr</link>
       <description>En esta publicación se aborda un aspecto sumamente importante de la ciencia de datos, como lo es la manipulación de tablas de datos como paso inicial en el proceso de obtención de información.</description>
       <category>Tablas de datos</category>

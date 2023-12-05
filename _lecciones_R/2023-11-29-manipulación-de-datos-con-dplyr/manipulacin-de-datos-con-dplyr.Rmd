@@ -6,7 +6,7 @@ categories:
   - Tidyverse
 description: En esta publicación se aborda un aspecto sumamente importante de la ciencia de datos, como lo es la manipulación de tablas de datos como paso inicial en el proceso de obtención de información.
 author:
-  - name: Félix Millán
+  - name: Félix R. Millán-Trujillo
 date: 2023-11-29
 output:
   distill::distill_article:
