@@ -70,7 +70,7 @@ Si te interesan los contenidos o estás interesado en un servicio, no dudes en c
   action="https://formspree.io/f/mleyqbvk"
   method="POST"
 >
-<p>CONTÁCTAME</p>
+<h5>CONTÁCTAME</h5>
   <label>
     Tu correo:
     <input type="email" name="email">
