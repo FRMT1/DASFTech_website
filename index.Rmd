@@ -60,10 +60,26 @@ Si te interesan los contenidos o estás interesado en un servicio, no dudes en c
 
 <br />
 
-*Félix R. Millán T.*
+*Félix R. Millán-Trujillo*
 
 <br />
 
 
-
+<!-- modify this form HTML and place wherever you want your form -->
+<form
+  action="https://formspree.io/f/mleyqbvk"
+  method="POST"
+>
+<p>CONTÁCTAME</p>
+  <label>
+    Tu correo:
+    <input type="email" name="email">
+  </label>
+  <label>
+    Tu mensaje:
+    <textarea name="message"></textarea>
+  </label>
+  <!-- your other form fields go here -->
+  <button type="submit">Send</button>
+</form>
 
