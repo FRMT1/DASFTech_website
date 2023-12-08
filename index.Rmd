@@ -66,8 +66,7 @@ Si te interesan los contenidos, deseas recibir la notificación en tu correo cua
 <!-- modify this form HTML and place wherever you want your form -->
 <form
   action="https://formspree.io/f/mleyqbvk"
-  method="POST"
->
+  method="POST">
 <h5>
 <strong>Contáctame</strong>
 </h5>
@@ -91,3 +90,5 @@ Si te interesan los contenidos, deseas recibir la notificación en tu correo cua
   <!-- your other form fields go here -->
   <button type="submit">Enviar</button>
 </form>
+
+<br />

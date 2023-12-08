@@ -14,7 +14,7 @@
 
 html {
   /*-- Main font sizes --*/
-  --title-size:      25px;
+  --title-size:      20px;
   --body-size:       14px;
   --code-size:       14px;
   --aside-size:      12px;
@@ -79,12 +79,12 @@ d-appendix {
 
 h1 {
   color: #14213D;
-  font-size: 36px;
+  font-size: 30px;
 }
 
 h2 {
   color: #E85004;
-  font-size: 30px;
+  font-size: 25px;
 }
 
 .btn-outline-dark {
