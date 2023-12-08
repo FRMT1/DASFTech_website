@@ -1,5 +1,8 @@
 ---
 title: "Desechos vegetales como fuente de compuestos funcionales"
+categories:
+  - Desechos vegetales
+  - Compuestos funcionales
 description: |
   Ante la demanda creciente de alimentos en el mundo y la continua producción de desechos vegetales en el campo y la industria, esta publicación explora la potencial aplicación de tales desechos, como fuente de ingredientes funcionales y nutricionales para el desarrollo de alimentos, 
 author:
@@ -8,6 +11,9 @@ date: 2023-08-01
 output:
   distill::distill_article:
     self_contained: false
+    toc: TRUE
+    toc_depth: 2
+    toc_float: TRUE
 ---
 
 

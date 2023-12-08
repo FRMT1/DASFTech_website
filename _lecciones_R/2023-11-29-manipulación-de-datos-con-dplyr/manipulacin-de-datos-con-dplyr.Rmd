@@ -1,7 +1,7 @@
 ---
 title: "Manipulación de datos con dplyr"
 categories:
-  - Tablas de datos
+  - Tabla de datos
   - Manipulación de datos
   - Tidyverse
 description: En esta publicación se aborda un aspecto sumamente importante de la ciencia de datos, como lo es la manipulación de tablas de datos como paso inicial en el proceso de obtención de información.

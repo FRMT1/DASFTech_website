@@ -13,7 +13,7 @@
       <dc:creator>Félix R. Millán-Trujillo</dc:creator>
       <link>http://felixmillan.netlify.app/lecciones_R/2023-11-29-manipulación-de-datos-con-dplyr</link>
       <description>En esta publicación se aborda un aspecto sumamente importante de la ciencia de datos, como lo es la manipulación de tablas de datos como paso inicial en el proceso de obtención de información.</description>
-      <category>Tablas de datos</category>
+      <category>Tabla de datos</category>
       <category>Manipulación de datos</category>
       <category>Tidyverse</category>
       <guid>http://felixmillan.netlify.app/lecciones_R/2023-11-29-manipulación-de-datos-con-dplyr</guid>
@@ -26,7 +26,7 @@
       <link>http://felixmillan.netlify.app/lecciones_R/2023-07-01-estructuras-de-datos</link>
       <description>Este apartado trata sobre las principales estructuras de datos en R. Se verá como conformar vectores, factores, matrices y tablas de datos. Es un tutorial muy útil para abordar aspectos más avanzados del programa.</description>
       <category>Tipos de datos</category>
-      <category>Gráficos</category>
+      <category>Visualización</category>
       <guid>http://felixmillan.netlify.app/lecciones_R/2023-07-01-estructuras-de-datos</guid>
       <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
       <media:content url="http://felixmillan.netlify.app/lecciones_R/2023-07-01-estructuras-de-datos/Rlogo.png" medium="image" type="image/png" width="724" height="561"/>

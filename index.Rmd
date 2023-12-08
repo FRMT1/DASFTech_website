@@ -5,12 +5,10 @@ language: "es"
 links:
   - label: '<i class="fab fa-linkedin"></i> Linkedin'
     url: 'https://www.linkedin.com/in/felix-r-millan-t-3013604a/                      target="_blank"'
-  - label: '<i class="fab fa-twitter"></i> Twitter'
-    url: 'https://twitter.com/feramitru target="_blank"'
   - label: '<i class="fab fa-instagram"></i> Instagram'
     url: 'https://instagram.com/feramitru target="_blank"'
-  - label: '<i class="fas fa-envelope"></i> Email'
-    url: 'mailto:proffelixmillan@gmail.com target="_blank"'
+  - label: '<i class="fab fa-twitter"></i> Twitter'
+    url: 'https://twitter.com/feramitru target="_blank"'
   - label: '<i class="fab fa-github"></i> GitHub'
     url: 'https://github.com/FRMT1 target="_blank"'
 output:
@@ -56,7 +54,7 @@ cookieconsent.run({"notice_banner_type":"simple","consent_type":"express","palet
 
 Empecé mi carrera profesional como becario del Consejo Nacional de Investigaciones Científicas y Tecnologicas (CONICIT) en la Universidad Central de Venezuela, donde tuve la oportunidad de desarrollar un proceso químico conocido como amoniación, para la inactivación de Aflatoxina B1 en granos de cereales. Luego ingresé como profesor en la Universidad Simón Bolívar, donde me desempeñé los primeros 6 años de carrera como docente e investigador en el área de ingeniería de alimentos, desempeñándome posteriormente 20 años como profesor de diseño estadístico de experimentos, control de calidad y tecnología de alimentos, centrando mi experiencia de investigación en la aplicación de métodos estadísticos -metodología de superficie de respuesta y diseños de mezcla- y de aprendizaje automático -redes neuronales de aprendizaje supervisado y no supervisado para datos rectangulares-, en el desarrollo y procesamiento de alimentos. Soy autor de 15 publicaciones científicas en *RACI* y he sido tutor de numerosos trabajos de especialización y maestria en ciencia de alimentos y calidad, así como de pasantías profesionales en la empresa privada. Así mismo, me he desempeñado en la industria a través de servicios de consultoría en lo relaticvo a la determinación de la vida útil de alimentos, procesos térmicos de esterilización comercial y control estadístico de la calidad. Actualmente soy profesor titular jubilado de la Universidad Simón Bolivar y fundador de la empresa **FM Ciencia de Datos & Tecnología de Alimentos**, iniciativa a través de la cual, ofrezco servicios de educación y consultoría en el área de tecnología de alimentos y estadística aplicada, dirigidos a personas naturales y jurídicas.
 
-Si te interesan los contenidos o estás interesado en un servicio, no dudes en contactarme por correo electrónico.
+Si te interesan los contenidos, deseas recibir la notificación en tu correo cuando haya una nueva publicación o tutorial, o estás interesado en un servicio, te invito a que llenes y envíes el siguiente formulario.
 
 <br />
 
@@ -70,9 +68,20 @@ Si te interesan los contenidos o estás interesado en un servicio, no dudes en c
   action="https://formspree.io/f/mleyqbvk"
   method="POST"
 >
-<h5>CONTÁCTAME</h5>
+<h5>
+<strong>Contáctame</strong>
+</h5>
+<br />
   <label>
-    Tu correo:
+    Nombre:
+    <input type="name" name="name">
+  </label>
+  <label>
+    Apellido:
+    <input type="name" name="name">
+  </label>
+  <label>
+    Correo electrónico:
     <input type="email" name="email">
   </label>
   <label>
@@ -80,6 +89,5 @@ Si te interesan los contenidos o estás interesado en un servicio, no dudes en c
     <textarea name="message"></textarea>
   </label>
   <!-- your other form fields go here -->
-  <button type="submit">Send</button>
+  <button type="submit">Enviar</button>
 </form>
-
