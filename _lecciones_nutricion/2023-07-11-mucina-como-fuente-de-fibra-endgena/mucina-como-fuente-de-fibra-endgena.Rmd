@@ -3,6 +3,7 @@ title: "Mucina como fuente de fibra endógena"
 categories:
   - Mucina
   - Intestino
+  - Ayuno intermitente
   - Ácido butírico
 language: "es"
 description: Se aborda una visión breve del impacto del ayuno intermitente en el microbioma intestinal, y la utilización de los O-Glucanos de la Mucina como fuente de fibra endógena y sustrato de fermentación, para la síntesis de ácidos grasos de cadena corta y su importancia en la salud humana.
