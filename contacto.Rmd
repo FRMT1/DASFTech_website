@@ -27,7 +27,8 @@ output: distill::distill_article
 Si te interesa el contenido de los tutoriales y los blogs, te invito a subscribirte, para recibir la notificación en tu correo electrónico cuando salga una nueva publicación; utilizando la siguiente forma:
 
 <!-- modify this form HTML and place wherever you want your form -->
-<h5>Subscríbete</h5>
+## Subscríbete
+
 <p>Deseo recibir la notificación de nuevas publicaciones</p>
 <form
   action="https://formspree.io/f/mleyqbvk"
@@ -36,19 +37,19 @@ Si te interesa el contenido de los tutoriales y los blogs, te invito a subscribi
   <label>
     Nombre:
     <input type="name" name="name">
-  </label>
+  </label><br />
   <label>
     Apellido:
     <input type="name" name="name">
-  </label>
+  </label><br />
   <label>
     Correo electrónico:
     <input type="email" name="email">
-  </label>
+  </label><br />
   <label>
     Tu mensaje:
     <textarea name="message"></textarea>
-  </label>
+  </label><br />
   <!-- your other form fields go here -->
   <button type="submit">Enviar</button>
 </form>
@@ -57,7 +58,7 @@ Si te interesa el contenido de los tutoriales y los blogs, te invito a subscribi
 
 Si estás interesado en alguno de los cursos ofertados, por favor, sigue el siguiente procedimiento:
 
-### Pre-inscripción
+## Pre-inscripción
 
 1. Verifica en la ventana "Servicios" y en las redes sociales que se muestran en la página principal, que el curso esté siendo ofertado actualmente, así como el periodo de pre-inscripción.
 
@@ -72,53 +73,53 @@ Si estás interesado en alguno de los cursos ofertados, por favor, sigue el sigu
   <label>
     Nombre:
     <input type="name" name="name">
-  </label>
+  </label><br />
   <label>
     Apellido:
     <input type="name" name="name">
-  </label>
+  </label><br />
   <label>
     Fecha:
     <input type="name" name="name">
-  </label>
+  </label><br />
   <label>
     Nombre del curso:
     <input type="name" name="name">
-  </label>
+  </label><br />
   <label>
     Ocupación:
     <input type="name" name="name">
-  </label>
+  </label><br />
   <label>
     País:
     <input type="name" name="name">
-  </label>
+  </label><br />
   <label>
     Forma de pago:
     <input type="name" name="name">
-  </label>
+  </label><br />
   <label>
     Correo electrónico:
     <input type="email" name="email">
-  </label>
+  </label><br />
   <label>
     Tu mensaje:
     <textarea name="message"></textarea>
-  </label>
+  </label><br />
   <!-- your other form fields go here -->
   <button type="submit">Enviar</button>
-</form>
+</form><br />
 
 3. Recibirás un correo electrónico en el cual se te notificará la aprobación de tu pre-inscripción, así como la fecha de inscripción, indicaciones de acuerdo al método de pago seleccionado e inicio del curso.
 
-### Inscripción
+## Inscripción
 
 1. Verifica la fecha de inscripción en la ventana **Servicios** de la página principal o en las redes sociales. Los métodos de pago disponibles son:
 
-  * [PayPal]https://www.paypal.com/ve/home
-  * [AirTM]https://www.airtm.com/es/
-  * Depósito en Bolívares a la tasa del [Banco Central de Venezuela]https://bcv.org.ve/ para el momento de la inscripción
-  * [Reserve app]https://reserve.org/
+  * [PayPal](https://www.paypal.com/ve/home)
+  * [AirTM](https://www.airtm.com/es/)
+  * Depósito en Bolívares a la tasa del [Banco Central de Venezuela](https://bcv.org.ve/) para el momento de la inscripción
+  * [Reserve app](https://reserve.org/)
   
 2. Cancela la totalidad del curso y envía el número de referencia de la transacción y captura de pantalla, mediante el siguiente formulario:
 
@@ -131,29 +132,31 @@ Si estás interesado en alguno de los cursos ofertados, por favor, sigue el sigu
   <label>
     Nombre:
     <input type="name" name="name">
-  </label>
+  </label><br />
   <label>
     Apellido:
     <input type="name" name="name">
-  </label>
+  </label><br />
   <label>
     Correo electrónico:
     <input type="email" name="email">
-  </label>
+  </label><br />
   <label>
     Depósito (referencia):
     <input type="number" name="number">
-  </label>
+  </label><br />
   <label>
     Fecha:
     <input type="name" name="name">
-  </label>
+  </label><br />
   <label>
     Tu mensaje:
     <textarea name="message"></textarea>
-  </label>
+  </label><br />
   <!-- your other form fields go here -->
   <button type="submit">Enviar</button>
-</form>
+</form><br />
 
 3. Recibirás un correo confirmando tu inscripción, la fecha de inicio del curso y los datos para ingresar a la plataforma para acceder a los contenidos del curso.
+
+<br />
