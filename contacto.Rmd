@@ -1,5 +1,5 @@
 ---
-title: "Contacto"
+title: "Pongámonos en contacto"
 language: "es"
 #description: |
 # A new article created using the Distill format.
