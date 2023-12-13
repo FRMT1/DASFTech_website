@@ -1,5 +1,30 @@
 [
   {
+    "path": "lecciones_nutricion/2023-12-13-magnesio-y-funcin-cerebral/",
+    "title": "Magnesio y función cerebral",
+    "description": "Trataremos en esta publicación, sobre la función del magnesio en la neuroplasticidad y su potencial efecto en el mantenimiento y mejoramiento de la memoria y la capacidad de aprendizaje.",
+    "author": [
+      {
+        "name": "Félix R. Millán-Trujillo",
+        "url": {}
+      }
+    ],
+    "date": "2023-12-13",
+    "categories": [
+      "Magnesio",
+      "Cerebro",
+      "Cognición",
+      "Memoria",
+      "Sinápsis"
+    ],
+    "contents": "\n\nContents\nMemoria y aprendizaje\nEl Magnesio en la neuroquímica\nL-Treonato de Magnesio (MgT)\nLectura complementaria\n\n\nMemoria y aprendizaje\nLa fortaleza de las conexiones sinápticas, está ampliamente asociada con la función cerebral de la memoria, y algunas investigaciones también la asocian con la capacidad de aprendizaje. Sin embargo, la habilidad cerebral para almacenar nueva información, parece estar correlacionada con la plasticidad de las conexiones neuronales y el número de conexiones disponibles.\nPor lo tanto, debe existir un número crítico de conexiones para que tenga lugar las funciones cerebrales de memoria y aprendizaje. De hecho, en experimentos con animales se ha demostrado la correlación entre la disminución de conexiones neuronales y la disminución de la memoria asociada al envejecimiento.\nSi bien la edad es un factor irreversible, la dieta y los factores ambientales son factores susceptibles de modificación, que desempeñan un rol fundamental en el diseño de estrategias enfocadas hacia el modelado de la capacidad cognitiva del cerebro.\nEl Magnesio en la neuroquímica\nEl Magnesio (\\(Mg^{2+}\\)) es el cuarto ión más abundante en el cuerpo humano y actúa como grupo prostético o cofactor en más de 300 reacciones enzimáticas, siendo esencial para el funcionamiento del sistema cardiovascular, la contracción muscular y el sistema nervioso.\n\n\n\nEn el cerebro, una de las funciones fundamentales del \\(Mg^{2+}\\), es la regulación de los receptores NMDA (NMDAR) localizados en las terminaciones sinápticas, donde desempeñan su función como moduladores del potencial excitatorio postsináptico. Estos receptores son voltaje-dependientes y el \\(Mg^{2+}\\) controla su apertura, lo cual resulta esencial para la plasticidad neuronal. Los estudios in vitro demuestran que el \\(Mg^{2+}\\) es un regulador positivo de la plasticidad neuronal; es decir, el incremento en la concentración de Magnesio en el fluido extracelular \\([Mg^{2+}]_o\\), dentro de un rango fisiológico, se relaciona con el aumento de la plasticidad neuronal en cultivos neuronales provenientes del hipocampo.\nEntiéndase por plasticidad neuronal o neuroplasticidad, la capacidad del cerebro para adaptarse a los cambios del entorno.\nLa concentración de \\(Mg^{2+}\\) es mayor en el fluido cerebro espinal que en plasma, y este gradiente se mantiene por un proceso de transporte activo que regula la cantidad de Magnesio en el cerebro. De hecho, la elevación de la concentración de \\(Mg^{2+}\\) en plasma a través del suministro de \\(MgSo_4\\) por vía endovenosa, solo ha logrado incrementar la concentración de magnesio en el cerebro entre 10%-19%.\nL-Treonato de Magnesio (MgT)\nEl MgT es una estructura química que aumenta la biodisponibilidad del Magnesio, pudiendo, de esa manera, incrementar la concentración de \\(Mg^{2+}\\) en el cerebro, mediante la suplementación oral, tal como se ha demostrado en animales de experimentación; en los cuales, el tratamiento crónico con MgT ha permitido la formación de nuevas conexiones neuronales en el corto tiempo y su fortalecimiento en el largo plazo. Ambos, procesos de suma importancia para la memoria y el aprendizaje.\n\n\n\nA nivel celular, la elevación de los niveles de \\(Mg^{2+}\\) en el cerebro, secundarios a la administración crónica de MgT, se relaciona con la reconfiguración de las redes sinápticas en animales, pasando de pocas conexiones con alta probabilidad de desconexión, a numerosas conexiones de baja probabilidad de desconexión.\nPuede especularse que estas modificaciones en la neuroquímica a partir de la dieta y la suplementación oral con MgT, pudieran tener un efecto positivo en las funciones cerebrales de la memoria y el aprendizaje; aunque se requiere más investigación al respecto.\nA través de la dieta, las principales fuentes de \\(Mg^{2+}\\) son los cereales fortificados, legumbres, vegetales de hojas verdes como la espinaca, la leche y el yogurt. Las cantidades recomendadas por día, en miligramos (mg), son: 310-320 mg en mujeres y 400-420 mg en hombres. de acuerdo a las Recommended Dietary Allowanses (RDA)\nLectura complementaria\nInna S., Nashat A., Long-Jun W., Chao H., Ling Z., Bo L., Xiang Z., Arvind G., Ming-Gao Z., Min Z., Susumo T., Guosong L. Enhancement of Learning and Memory by Elevating Brain Magnesium. Neuron (2010). N°65. Pp., 165-177.\n\n\n\n",
+    "preview": "lecciones_nutricion/2023-12-13-magnesio-y-funcin-cerebral/Mg.png",
+    "last_modified": "2023-12-13T14:12:26-04:00",
+    "input_file": {},
+    "preview_width": 810,
+    "preview_height": 569
+  },
+  {
     "path": "lecciones_nutricion/2023-07-11-mucina-como-fuente-de-fibra-endgena/",
     "title": "Mucina como fuente de fibra endógena",
     "description": "Se aborda una visión breve del impacto del ayuno intermitente en el microbioma intestinal, y la utilización de los O-Glucanos de la Mucina como fuente de fibra endógena y sustrato de fermentación, para la síntesis de ácidos grasos de cadena corta y su importancia en la salud humana.",
