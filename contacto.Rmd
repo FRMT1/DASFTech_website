@@ -79,8 +79,8 @@ Si estás interesado en alguno de los cursos ofertados, por favor, sigue el sigu
     <input type="name" name="name">
   </label><br />
   <label>
-    Fecha:
-    <input type="name" name="name">
+    Fecha de pre-inscripción:
+    <input type="date" name="name">
   </label><br />
   <label>
     Nombre del curso:
@@ -146,8 +146,8 @@ Si estás interesado en alguno de los cursos ofertados, por favor, sigue el sigu
     <input type="number" name="number">
   </label><br />
   <label>
-    Fecha:
-    <input type="name" name="name">
+    Fecha de inscripción:
+    <input type="date" name="name">
   </label><br />
   <label>
     Tu mensaje:
