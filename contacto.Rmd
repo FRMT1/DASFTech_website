@@ -145,7 +145,7 @@ Si estás interesado en alguno de los cursos ofertados, por favor, sigue el sigu
     Depósito (número de referencia):
     <input type="number" name="number">
   </label><br />
-  <label for="file">
+  <label>
     Subir captura de la transferencia:
     <input type="file" name="file" accept= "image/png,               image/jpg, image/jpeg">
   </label><br />
@@ -161,12 +161,7 @@ Si estás interesado en alguno de los cursos ofertados, por favor, sigue el sigu
   <button type="submit">Enviar</button>
 </form><br />
 
-#Borrar los campos una vez enviado el formulario
-window.onbeforeunload = () => {
-  for(const form of document.getElementsByTagName('form')) {
-    form.reset();
-  }
-}
+
 
 3. Recibirás un correo confirmando tu inscripción, la fecha de inicio del curso y los datos para ingresar a la plataforma para acceder a los contenidos del curso.
 
