@@ -161,7 +161,17 @@ Si estás interesado en alguno de los cursos ofertados, por favor, sigue el sigu
   <button type="submit">Enviar</button>
 </form><br />
 
-
+<h5>Anexe la captura de pantalla de la transferencia</h5>
+<form method="post" action="https://formspree.io/f/mleyqbvk"
+>
+  <label for="profile_pic">Subir captura de pantalla</label>
+    <input
+      type="file"
+      id="profile_pic"
+      name="profile_pic"
+      accept=".jpg, .jpeg, .png" /><br />
+  <button>Enviar</button>
+</form><br />
 
 3. Recibirás un correo confirmando tu inscripción, la fecha de inicio del curso y los datos para ingresar a la plataforma para acceder a los contenidos del curso.
 
