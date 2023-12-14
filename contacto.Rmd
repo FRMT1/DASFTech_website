@@ -146,10 +146,6 @@ Si estás interesado en alguno de los cursos ofertados, por favor, sigue el sigu
     <input type="number" name="number">
   </label><br />
   <label>
-    Subir captura de la transferencia:
-    <input type="file" name="file" accept= "image/png,               image/jpg, image/jpeg">
-  </label><br />
-  <label>
     Fecha de inscripción:
     <input type="date" name="name">
   </label><br />
@@ -161,18 +157,10 @@ Si estás interesado en alguno de los cursos ofertados, por favor, sigue el sigu
   <button type="submit">Enviar</button>
 </form><br />
 
-<h5>Anexe la captura de pantalla de la transferencia</h5>
-<form method="post" action="https://formspree.io/f/mleyqbvk"
-enctype="multipart/form-data" target="_blank">
+**Nota**: *Por favor, envíe la captura de pantalla de la transferencia al correo proffelixmillan@gmail.com*
 
-  <label for="profile_pic">Subir captura de pantalla</label>
-    <input
-      type="file"
-      id="profile_pic"
-      name="profile_pic"
-      accept=".jpg, .jpeg, .png" /><br />
-  <button>Enviar</button>
-</form><br />
+<br />
+
 
 3. Recibirás un correo confirmando tu inscripción, la fecha de inicio del curso y los datos para ingresar a la plataforma para acceder a los contenidos del curso.
 
