@@ -157,7 +157,7 @@ Si estás interesado en alguno de los cursos ofertados, por favor, sigue el sigu
   <button type="submit">Enviar</button>
 </form><br />
 
-**Nota**: *Por favor, envíe la captura de pantalla de la transferencia al correo proffelixmillan@gmail.com*
+**Nota**: *Por favor, envíe la captura de pantalla de la transferencia al correo proffelixmillan@gmail.com. Llenar el reporte de inscripción y enviar la captura de pantalla de la transferencia, son indispensables para formalizar la inscripción*
 
 <br />
 
