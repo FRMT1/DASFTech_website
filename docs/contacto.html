@@ -93,8 +93,8 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 
   <!--  https://schema.org/Article -->
-  <meta property="article:published" itemprop="datePublished" content="2023-12-14"/>
-  <meta property="article:created" itemprop="dateCreated" content="2023-12-14"/>
+  <meta property="article:published" itemprop="datePublished" content="2023-12-15"/>
+  <meta property="article:created" itemprop="dateCreated" content="2023-12-15"/>
 
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
   <meta property="og:title" content="Félix R. Millán-Trujillo: Pongámonos en contacto"/>
@@ -110,7 +110,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","language","date","output"]}},"value":[{"type":"character","attributes":{},"value":["Pongámonos en contacto"]},{"type":"character","attributes":{},"value":["es"]},{"type":"character","attributes":{},"value":["2023-12-14"]},{"type":"character","attributes":{},"value":["distill::distill_article"]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","language","date","output"]}},"value":[{"type":"character","attributes":{},"value":["Pongámonos en contacto"]},{"type":"character","attributes":{},"value":["es"]},{"type":"character","attributes":{},"value":["2023-12-15"]},{"type":"character","attributes":{},"value":["distill::distill_article"]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   <!--radix_placeholder_navigation_in_header-->
@@ -2483,7 +2483,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"Pongámonos en contacto","authors":[],"publishedDate":"2023-12-14T00:00:00.000-04:00"}
+{"title":"Pongámonos en contacto","authors":[],"publishedDate":"2023-12-15T00:00:00.000-04:00"}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -2638,42 +2638,124 @@ Tu mensaje:
 <li><a href="https://reserve.org/">Reserve app</a></li>
 </ul>
 <ol start="2" type="1">
-<li>Cancela la totalidad del curso y envía el número de referencia de la transacción y captura de pantalla, mediante el siguiente formulario:</li>
+<li><p>Cancela la totalidad del curso y envía el número de referencia de la transacción y captura de pantalla, mediante el siguiente formulario:</p>
+<script src ="https://form.jotform.com/static/feedback2.js" type="text/javascript"></script>
+<script type="text/javascript">
+     var JFL_233482485849067 = new JotformFeedback({
+       formId: '233482485849067',
+       base: 'https://form.jotform.com/',
+       windowTitle: 'Registro de inscripción',
+       backgroundColor: '#278',
+       fontColor: '#FFFFFF',
+       type: 'false',
+       height: 500,
+       width: 700,
+       openOnLoad: false
+     });
+ </script>
+<script type="text/javascript">
+ var ifr = document.getElementById("lightbox-233482485849067");
+ if (ifr) {
+   var src = ifr.src;
+   var iframeParams = [];
+   if (window.location.href && window.location.href.indexOf("?") > -1) {
+     iframeParams = iframeParams.concat(window.location.href.substr(window.location.href.indexOf("?") + 1).split('&'));
+   }
+   if (src && src.indexOf("?") > -1) {
+     iframeParams = iframeParams.concat(src.substr(src.indexOf("?") + 1).split("&"));
+     src = src.substr(0, src.indexOf("?"))
+   }
+   iframeParams.push("isIframeEmbed=1");
+   ifr.src = src + "?" + iframeParams.join('&');
+ }
+ window.handleIFrameMessage = function(e) {
+   if (typeof e.data === 'object') { return; }
+   var args = e.data.split(":");
+   if (args.length > 2) { iframe = document.getElementById("lightbox-" + args[(args.length - 1)]); } else { iframe = document.getElementById("lightbox"); }
+   if (!iframe) { return; }
+   switch (args[0]) {
+     case "scrollIntoView":
+       iframe.scrollIntoView();
+       break;
+     case "setHeight":
+       iframe.style.height = args[1] + "px";
+       if (!isNaN(args[1]) && parseInt(iframe.style.minHeight) > parseInt(args[1])) {
+         iframe.style.minHeight = args[1] + "px";
+       }
+       break;
+     case "collapseErrorPage":
+       if (iframe.clientHeight > window.innerHeight) {
+         iframe.style.height = window.innerHeight + "px";
+       }
+       break;
+     case "reloadPage":
+       window.location.reload();
+       break;
+     case "loadScript":
+       if( !window.isPermitted(e.origin, ['jotform.com', 'jotform.pro']) ) { break; }
+       var src = args[1];
+       if (args.length > 3) {
+           src = args[1] + ':' + args[2];
+       }
+       var script = document.createElement('script');
+       script.src = src;
+       script.type = 'text/javascript';
+       document.body.appendChild(script);
+       break;
+     case "exitFullscreen":
+       if      (window.document.exitFullscreen)        window.document.exitFullscreen();
+       else if (window.document.mozCancelFullScreen)   window.document.mozCancelFullScreen();
+       else if (window.document.mozCancelFullscreen)   window.document.mozCancelFullScreen();
+       else if (window.document.webkitExitFullscreen)  window.document.webkitExitFullscreen();
+       else if (window.document.msExitFullscreen)      window.document.msExitFullscreen();
+       break;
+   }
+   var isJotForm = (e.origin.indexOf("jotform") > -1) ? true : false;
+   if(isJotForm && "contentWindow" in iframe && "postMessage" in iframe.contentWindow) {
+     var urls = {"docurl":encodeURIComponent(document.URL),"referrer":encodeURIComponent(document.referrer)};
+     iframe.contentWindow.postMessage(JSON.stringify({"type":"urls","value":urls}), "*");
+   }
+ };
+ window.isPermitted = function(originUrl, whitelisted_domains) {
+   var url = document.createElement('a');
+   url.href = originUrl;
+   var hostname = url.hostname;
+   var result = false;
+   if( typeof hostname !== 'undefined' ) {
+     whitelisted_domains.forEach(function(element) {
+         if( hostname.slice((-1 * element.length - 1)) === '.'.concat(element) ||  hostname === element ) {
+             result = true;
+         }
+     });
+     return result;
+   }
+ };
+ if (window.addEventListener) {
+   window.addEventListener("message", handleIFrameMessage, false);
+ } else if (window.attachEvent) {
+   window.attachEvent("onmessage", handleIFrameMessage);
+ }
+ </script>
+<p><a class="btn lightbox-233482485849067" 
+   style="
+   margin-top: 16px;
+   text-transform: uppercase;
+   font-size: 14px;
+   text-decoration: none;
+   cursor: pointer;
+   display: inline-block;
+   padding: 10px;
+   font-family: inherit;
+   text-shadow: none;
+   user-select: none;
+   transition: all,.1s,ease-in;
+   background-color: #278;
+   border: 1px solid #278;
+   color: #FFFFFF;
+   ">
+Registro de inscripción
+</a></p></li>
 </ol>
-<!-- modify this form HTML and place wherever you want your form -->
-<h5>
-Reporte de inscripción
-</h5>
-<form action="https://formspree.io/f/mleyqbvk" method="POST">
-<label>
-Nombre:
-<input type="name" name="name">
-</label><br />
-<label>
-Apellido:
-<input type="name" name="name">
-</label><br />
-<label>
-Correo electrónico:
-<input type="email" name="email">
-</label><br />
-<label>
-Depósito (número de referencia):
-<input type="number" name="number">
-</label><br />
-<label>
-Fecha de inscripción:
-<input type="date" name="name">
-</label><br />
-<label>
-Tu mensaje:
-<textarea name="message"></textarea>
-</label><br />
-<!-- your other form fields go here -->
-<button type="submit">Enviar</button>
-</form>
-<p><br /></p>
-<p><strong>Nota</strong>: <em>Por favor, envíe la captura de pantalla de la transferencia al correo <a href="mailto:proffelixmillan@gmail.com" class="email">proffelixmillan@gmail.com</a>. Llenar el reporte de inscripción y enviar la captura de pantalla de la transferencia, son indispensables para formalizar la inscripción</em></p>
 <p><br /></p>
 <ol start="3" type="1">
 <li>Recibirás un correo confirmando tu inscripción, la fecha de inicio del curso y los datos para ingresar a la plataforma para acceder a los contenidos del curso.</li>
