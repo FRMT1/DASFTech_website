@@ -8,7 +8,7 @@ links:
   - label: '<i class="fab fa-instagram"></i>'
     url: 'https://instagram.com/feramitru target="_blank"'
   - label: '<i class="fa-brands fa-x-twitter"></i>'
-    url: 'https://twitter.com/feramitru target="_blank"'
+    url: 'https://x.com/feramitru target="_blank"'
   - label: '<i class="fab fa-github"></i>'
     url: 'https://github.com/FRMT1 target="_blank"'
 output:
