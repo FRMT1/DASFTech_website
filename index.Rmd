@@ -3,13 +3,13 @@ title: ""
 image: "FM.png"
 language: "es"
 links:
-  - label: '<i class="fab fa-linkedin"></i> Linkedin'
+  - label: '<i class="fab fa-linkedin"></i>'
     url: 'https://www.linkedin.com/in/felix-r-millan-t-3013604a/                      target="_blank"'
-  - label: '<i class="fab fa-instagram"></i> Instagram'
+  - label: '<i class="fab fa-instagram"></i>'
     url: 'https://instagram.com/feramitru target="_blank"'
-  - label: '<i class="fab fa-twitter"></i> Twitter'
+  - label: '<i class="fa-brands fa-x-twitter"></i>'
     url: 'https://twitter.com/feramitru target="_blank"'
-  - label: '<i class="fab fa-github"></i> GitHub'
+  - label: '<i class="fab fa-github"></i>'
     url: 'https://github.com/FRMT1 target="_blank"'
 output:
   postcards::trestles
@@ -46,6 +46,9 @@ cookieconsent.run({"notice_banner_type":"interstitial","consent_type":"implied",
 <!-- Below is the link that users can use to open Preferences Center to change their preferences. Do not modify the ID parameter. Place it where appropriate, style it as needed. -->
 
 <a href="#" id="open_preferences_center">Update cookies preferences</a>
+
+
+<script src="https://kit.fontawesome.com/4b7f9f2430.js" crossorigin="anonymous"></script>
 
 
 ## ¡Bienvenidos! 
