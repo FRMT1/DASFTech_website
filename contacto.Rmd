@@ -24,9 +24,22 @@ output: distill::distill_article
 
 # Suscripción (tutoriales y blogs)
 
-Si te interesa el contenido de los tutoriales y los blogs, te invito a subscribirte, para recibir la notificación en tu correo electrónico cuando salga una nueva publicación; utilizando la siguiente forma:
+Si te interesa el contenido de los tutoriales y los blogs, te invito a suscribirte, para recibir la notificación en tu correo electrónico cuando salga una nueva publicación:
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc0oxWus1ibF1NtxAUM-PcuFRDWBlByEmaoyAigoFzFT2f24g/viewform?embedded=true" width="640" height="782" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
+<!-- modify this form HTML and place wherever you want your form -->
+
+<form
+  action="https://formspree.io/f/mleyqbvk"
+  method="POST"
+>
+  <p>Suscripción</p>
+  <label>
+    Correo electrónico:
+    <input type="email" name="email">
+  </label><br />
+  <!-- your other form fields go here -->
+  <button type="submit">Enviar</button>
+</form><br />
 
 # Inscripción en cursos
 
@@ -155,7 +168,7 @@ Si estás interesado en alguno de los cursos ofertados, por favor, sigue el sigu
       ">
         Formulario de pre-inscripción
       </a>
-   
+ <br />  
 
 3. Recibirás un correo electrónico en el cual se te notificará la aprobación de tu pre-inscripción, así como la fecha de inscripción, indicaciones de acuerdo al método de pago seleccionado e inicio del curso.
 
@@ -289,7 +302,6 @@ Si estás interesado en alguno de los cursos ofertados, por favor, sigue el sigu
       </a>
 
 <br />
-
 
 3. Recibirás un correo confirmando tu inscripción, la fecha de inicio del curso y los datos para ingresar a la plataforma para acceder a los contenidos del curso.
 
