@@ -32,7 +32,9 @@ Si te interesa el contenido de los tutoriales y los blogs, te invito a suscribir
   action="https://formspree.io/f/mleyqbvk"
   method="POST"
 >
-  <p>Suscripción</p>
+  <label>
+    Suscripción.
+  </label><br />
   <label>
     Correo electrónico:
     <input type="email" name="email">
