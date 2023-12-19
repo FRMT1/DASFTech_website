@@ -41,11 +41,13 @@ Si te interesa el contenido de los tutoriales y los blogs, te invito a suscribir
   </label><br />
   <label>
     Mensaje:
-    <textarea id="Mensaje"></textarea>
   </label><br />
+  <textarea id="Mensaje"></textarea>
+  <br />
   <!-- your other form fields go here -->
   <button type="submit">Enviar</button>
 </form><br />
+
 
 
 # Inscripción en cursos
