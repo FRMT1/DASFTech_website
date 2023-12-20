@@ -3,13 +3,13 @@ title: ""
 image: "FM.png"
 language: "es"
 links:
-  - label: '<i class="fa-brands fa-linkedin"></i>'
+  - label: '<i class="fa-brands fa-linkedin fa-2xl"></i>'
     url: 'https://www.linkedin.com/in/felix-r-millan-t-3013604a/                      target="_blank"'
-  - label: '<i class="fa-brands fa-square-instagram"></i>'
+  - label: '<i class="fa-brands fa-square-instagram fa-2xl"></i>'
     url: 'https://instagram.com/feramitru target="_blank"'
-  - label: '<i class="fa-brands fa-square-x-twitter"></i>'
+  - label: '<i class="fa-brands fa-square-x-twitter fa-2xl"></i>'
     url: 'https://x.com/feramitru target="_blank"'
-  - label: '<i class="fa-brands fa-github"></i>'
+  - label: '<i class="fa-brands fa-github fa-2xl"></i>'
     url: 'https://github.com/FRMT1 target="_blank"'
 output:
   postcards::trestles
